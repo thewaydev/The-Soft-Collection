@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "02174875258E6E84"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ad_astra:earth_globe"
+	id: "55A77101B695073E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Overworld"
+}

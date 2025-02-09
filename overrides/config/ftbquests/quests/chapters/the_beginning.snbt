@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: "737D1834EF03B5B3"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:crafting_table"
+	id: "30F50BB9E7E90B97"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "667AFAC21E5C73FC"
+			shape: "diamond"
+			tasks: [{
+				id: "7B83CB25F09202AF"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "The Chaos Begins"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["667AFAC21E5C73FC"]
+			id: "392CAD52861B9797"
+			tasks: [{
+				id: "53479B68768E073A"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["392CAD52861B9797"]
+			id: "18773D4F0ACD1BF9"
+			tasks: [{
+				id: "2A8E3371589B97F3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["392CAD52861B9797"]
+			id: "711A27466D1E54DC"
+			tasks: [{
+				id: "6E014DDEF2E2CC2C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"711A27466D1E54DC"
+				"18773D4F0ACD1BF9"
+			]
+			id: "6DCBC9EF0C63FE13"
+			tasks: [{
+				id: "0F8D53FBB7F59F07"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DCBC9EF0C63FE13"]
+			id: "27D79A2C9DD4B0CF"
+			tasks: [{
+				id: "4886E7D3C9CE0475"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DCBC9EF0C63FE13"]
+			description: ["{image: width:100 height:100 align:center}"]
+			icon: "tconstruct:smeltery_controller"
+			id: "70851D2EBE7CDB63"
+			shape: "pentagon"
+			tasks: [{
+				id: "4837B2C2943DFC4D"
+				title: "Get Started on Making Better Tools ^^"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DCBC9EF0C63FE13"]
+			icon: "immersiveengineering:ingot_steel"
+			id: "721296785D1D5B4E"
+			shape: "pentagon"
+			tasks: [{
+				id: "7ADA6D2A50DAAA91"
+				title: "The Start of the Industrial Revolution"
+				type: "checkmark"
+			}]
+			title: "Tech Unlock!"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27D79A2C9DD4B0CF"]
+			icon: "twilightforest:raven_feather"
+			id: "4DF2B6E2BE850FA0"
+			shape: "pentagon"
+			tasks: [{
+				id: "2D3172A8CC8EDD62"
+				title: "The Twillight Forest"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27D79A2C9DD4B0CF"]
+			id: "4BB5007DD7E006C2"
+			shape: "circle"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "737C281DBDF6B08A"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BB5007DD7E006C2"]
+			id: "27F8D463FF53BC4A"
+			tasks: [{
+				id: "5DE651C72EB07E76"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27F8D463FF53BC4A"]
+			id: "09B3F738FE185DDA"
+			tasks: [{
+				id: "26F71D9492DFF934"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09B3F738FE185DDA"]
+			id: "58F083EDFDD93A4B"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "545C9693C8A92081"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58F083EDFDD93A4B"]
+			id: "5A384132D2C09754"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1BA91F5448FE67F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BB5007DD7E006C2"]
+			id: "145FA6188B4E3373"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "223D38A2E34F9369"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["145FA6188B4E3373"]
+			id: "5E3C9CFF18907EE2"
+			tasks: [{
+				id: "37957BA24F7C1616"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A384132D2C09754"]
+			id: "29BD316A79204069"
+			tasks: [{
+				id: "6DAE416F5F7E7E17"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E3C9CFF18907EE2"
+				"29BD316A79204069"
+			]
+			id: "2DC80B325467C607"
+			tasks: [{
+				id: "33E757CE5A14DC9B"
+				title: "Moving On!"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DCBC9EF0C63FE13"]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "645F57F2E7766E14"
+			tasks: [{
+				id: "0CC0BDAAD8233638"
+				title: "Into Ars!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+	]
+	title: "The Beginning"
+}

@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "3394A3E3D39C13B9"
+	icon: "ae2:fluix_crystal"
+	id: "5C7157AB5C06EE19"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55EB79A7614A12EF"]
+			id: "5705A81EC9820D86"
+			tasks: [{
+				id: "0CF8A61FB34A7E30"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55EB79A7614A12EF"]
+			id: "4891DCA113F6EB4F"
+			tasks: [{
+				id: "47F16EF4CB8A9CF9"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["721296785D1D5B4E"]
+			id: "55EB79A7614A12EF"
+			tasks: [
+				{
+					id: "4589E0BA721B563D"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "2D0C216033401F9B"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5705A81EC9820D86"]
+			id: "127034422373D677"
+			tasks: [{
+				id: "471B8B7702E0DE05"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["127034422373D677"]
+			id: "5F2DF4ADF4D5C963"
+			tasks: [{
+				id: "2876D4BBE1F425CA"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4891DCA113F6EB4F"]
+			id: "49439BC52DABB0C3"
+			tasks: [
+				{
+					id: "11924AD1E26EA566"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "6948CD17C3B54480"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "27305F7014766F13"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "1E61794D573B9B14"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49439BC52DABB0C3"]
+			id: "3610A84611813DA3"
+			tasks: [
+				{
+					id: "3D4C1B5E06A30E0C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "4328E3A9EE5C199D"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "2ED518B68F1E6191"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F2DF4ADF4D5C963"]
+			id: "0333C38A86C491CF"
+			tasks: [{
+				id: "3A8B9A8AB08BC984"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3610A84611813DA3"
+				"0333C38A86C491CF"
+			]
+			id: "5844D5461691A2DF"
+			rewards: [{
+				count: 2
+				id: "46BD650ACE380481"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E7D2C3EB021AFBE"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5844D5461691A2DF"]
+			id: "22AB336EDB26C6D4"
+			tasks: [{
+				id: "3F8E09B5F5238A93"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22AB336EDB26C6D4"]
+			id: "6029637BA6A9FFFE"
+			tasks: [{
+				id: "5FF2AAB143691693"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6029637BA6A9FFFE"]
+			id: "324B5C845F4DC867"
+			tasks: [{
+				id: "007425C0BFA99D5D"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["324B5C845F4DC867"]
+			id: "3B553108814FE034"
+			tasks: [{
+				id: "4197525970BB5D45"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B553108814FE034"]
+			id: "6AA56F9385F626B0"
+			tasks: [{
+				id: "234F0D5A9DEE248F"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AA56F9385F626B0"]
+			id: "6CDB62D53068C90B"
+			tasks: [{
+				id: "7B3D83116120849C"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

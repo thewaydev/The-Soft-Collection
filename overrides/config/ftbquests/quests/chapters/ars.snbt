@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars"
+	group: "6B13F6F6BF5E3F21"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "711C40D8C170DE06"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["645F57F2E7766E14"]
+			id: "3DA3FF73148C144F"
+			tasks: [{
+				id: "3EF7C08E41332CA4"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA3FF73148C144F"]
+			id: "3987EDC0C4D124FF"
+			tasks: [{
+				id: "63469376513B1DFE"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Ars Nouveau"
+}

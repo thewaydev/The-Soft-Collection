@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "6B13F6F6BF5E3F21"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "bloodmagic:archmagebloodorb"
+	id: "30B5089EE2AB243E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["5ECB435083343B70"]
+		id: "3F734E960A4D4EB4"
+		tasks: [{
+			id: "1ECCE79EEE283D57"
+			item: {
+				Count: 1
+				id: "bloodmagic:sacrificialdagger"
+				tag: { }
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Blood Magic"
+}

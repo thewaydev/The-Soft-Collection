@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_stupid_shit"
+	group: "737D1834EF03B5B3"
+	hide_quest_until_deps_complete: true
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "31020C500A48FA90"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DC80B325467C607"]
+			id: "536FE0E33E91E2BD"
+			tasks: [{
+				id: "2C2EF43DB15F0D2D"
+				title: "the STUPIDEST shit"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["536FE0E33E91E2BD"]
+			id: "607C6DFA83F8079F"
+			tasks: [{
+				id: "4EAE4CF36A0A8AEE"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ironiron"
+					}
+				}
+				type: "item"
+			}]
+			title: "3.8742049e+12 Iron"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["(Blame waydu for this)"]
+	title: "The Stupid Shit"
+}

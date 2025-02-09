@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "7C6423CA99A31E16"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "mysticalagriculture:inferium_essence"
+	id: "120E526D5FC7DD84"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "232993867C866C21"
+		tasks: [{
+			id: "4182864B60C2F284"
+			item: "mysticalagriculture:inferium_essence"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Mystical Agriculture"
+}

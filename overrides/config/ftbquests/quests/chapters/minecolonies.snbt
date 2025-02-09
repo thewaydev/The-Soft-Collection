@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "0B3AB04834C93F0B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecolonies:blockhuttownhall"
+	id: "3A956D455384CED7"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0EE109EAD765A050"
+			tasks: [
+				{
+					id: "4BD0F77F1137B3BE"
+					item: "minecolonies:supplychestdeployer"
+					type: "item"
+				}
+				{
+					id: "2644F695E0433FB9"
+					item: "minecolonies:supplycampdeployer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EE109EAD765A050"]
+			id: "1E3552F037FB6BB4"
+			tasks: [{
+				id: "04C69B785093E6AF"
+				item: "structurize:sceptergold"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E3552F037FB6BB4"]
+			id: "6010EE519FC05CB2"
+			tasks: [{
+				id: "345542BF8B2873FE"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4235DBDF7C1B9375"]
+			id: "7C2F1BC542063AFE"
+			rewards: [{
+				id: "45A7E2913005906C"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D66D8E1959883F"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010EE519FC05CB2"]
+			id: "4235DBDF7C1B9375"
+			tasks: [{
+				id: "262DD96DAA8FBA9F"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "33424A325095ECC2"
+			tasks: [{
+				id: "0E3BCBAE20451DD2"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "73755BD39606BAC2"
+			tasks: [{
+				id: "3A1CDB68E69D6710"
+				item: "minecolonies:blockhutdeliveryman"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "7A3989D86FCC7908"
+			tasks: [{
+				id: "17F33C5A6BFB41F2"
+				item: "minecolonies:blockhutwarehouse"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "58E9B13B19AE9BD9"
+			tasks: [{
+				id: "33917FD0064AF51A"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "7331123AF2DA0EA5"
+			tasks: [{
+				id: "7A10F7416D75359D"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			hide_dependent_lines: true
+			id: "0ECE7DBE4449783D"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "3AA1DB807FB220F5"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "36047D1E37873534"
+			tasks: [{
+				id: "7D3DA1CF89E8425C"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "4FEFA225508380D5"
+			tasks: [{
+				id: "6AC5C126E93A4F25"
+				item: "minecolonies:blockhutfisherman"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+	]
+	title: "Minecolonies ^^"
+}

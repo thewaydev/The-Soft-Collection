@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "token_shop"
+	group: "146F8C3CC9459266"
+	icon: "kubejs:gambling_coin"
+	id: "50483BFDD459FDAC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["0AE7C7BDBE844DAA"]
+			id: "7D50DC15DC57E4C5"
+			rewards: [{
+				count: 6
+				id: "08395D1408501F88"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5F71BCF8B5487FC0"
+				item: { Count: 64, id: "saros__money_mod:euro_500" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "0AE7C7BDBE844DAA"
+			tasks: [{
+				id: "6FD27C45D99F4AAC"
+				title: "Gambling Shop"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AE7C7BDBE844DAA"]
+			id: "03FC86E9002F2F0C"
+			rewards: [{
+				count: 16
+				id: "734E3A906C97BCCD"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5DDA99F732DDD5AF"
+				item: { Count: 4, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AE7C7BDBE844DAA"]
+			id: "79EC078870188F18"
+			rewards: [{
+				count: 4
+				id: "4CB5BF27C4497374"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "79F77C21D8B4F0C1"
+					item: { Count: 16, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "235DAF777C9E1736"
+					item: { Count: 16, id: "minecraft:diamond_block" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Token Shop"
+}

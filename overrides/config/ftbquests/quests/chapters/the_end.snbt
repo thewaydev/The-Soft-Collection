@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "02174875258E6E84"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:end_stone"
+	id: "21BF9F1D191FEC80"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "The End"
+}

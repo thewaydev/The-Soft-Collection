@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_pack"
+	group: "737D1834EF03B5B3"
+	icon: "create:clipboard"
+	id: "39E0EEA9EAF1AB2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Pack"
+}

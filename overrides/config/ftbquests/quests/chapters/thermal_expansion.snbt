@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "0B3AB04834C93F0B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "thermal:machine_frame"
+	id: "764297715FABC908"
+	order_index: 1
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76BDDCF8068F356B"]
+			id: "514D160D8F2648C2"
+			tasks: [{
+				id: "44BDBAC5880FD97E"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "3386E4AD285A5C93"
+			tasks: [{
+				id: "44892DBAFD41AE69"
+				title: "Ender IO!!"
+				type: "checkmark"
+			}]
+			title: "Ender IO and Mekanism!!"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "5F57A3D714E8E837"
+			tasks: [{
+				id: "76BC505EAB0FF5AF"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "500FB0719E49839B"
+			tasks: [{
+				id: "2136892A1BB74654"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "3170C3EC46732A1A"
+			tasks: [{
+				id: "2D0ED4064B47ED7D"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "3B38C4FB54458EF9"
+			tasks: [{
+				id: "3E27B73E6E55DF3F"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F57A3D714E8E837"]
+			id: "2CD02C07292F9156"
+			tasks: [{
+				id: "55254DCC203A6ED0"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F57A3D714E8E837"]
+			id: "4650683820614FBF"
+			tasks: [{
+				id: "242AAD4900D636D7"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "2138EB7DC1A109F2"
+			tasks: [{
+				id: "5CDDCC9A182892CA"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "4AE1D0DFBCBD1ACA"
+			tasks: [{
+				id: "7A78F6262A84E7A6"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			id: "6BB55CB65B0A6949"
+			tasks: [{
+				id: "59BA821A2A50509E"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	title: "Thermal Expansion"
+}

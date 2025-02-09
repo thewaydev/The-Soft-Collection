@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "737D1834EF03B5B3", title: "Progression" }
+		{ id: "3394A3E3D39C13B9", title: "Storage" }
+		{ id: "6B13F6F6BF5E3F21", title: "Magic" }
+		{ id: "0B3AB04834C93F0B", title: "Tech" }
+		{ id: "02174875258E6E84", title: "Exploration" }
+		{ id: "7B95E9545FEE6418", title: "Tools" }
+		{ id: "7C6423CA99A31E16", title: "Agriculture" }
+		{ id: "146F8C3CC9459266", title: "Shop" }
+		{ id: "6C74BB285100E9E9", title: "Greggin It" }
+	]
+}

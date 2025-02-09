@@ -1,0 +1,11 @@
+{
+  "name": "IronIron",
+  "colors": [
+    "e1e1e1",
+    "6c6c6c"
+  ],
+  "ingredient": {
+    "item": "compressium:iron_9"
+  },
+  "inUltimateSingularity": false
+}

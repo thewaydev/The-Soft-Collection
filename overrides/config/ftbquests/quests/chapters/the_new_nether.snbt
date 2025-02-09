@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_new_nether"
+	group: "02174875258E6E84"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:netherrack"
+	id: "545E4ADDC0E65E97"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BB5007DD7E006C2"]
+			id: "06696FCF1DF04762"
+			shape: "hexagon"
+			tasks: [{
+				id: "7E02410ED91E7A29"
+				title: "Into the Nether!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06696FCF1DF04762"]
+			id: "267C6840F858C1FB"
+			tasks: [{
+				id: "5FF1C8006CAE224E"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06696FCF1DF04762"]
+			id: "42FD11714885F0A1"
+			tasks: [{
+				id: "6EF0EDBEC4B09A1C"
+				title: "Nether Ores"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["06696FCF1DF04762"]
+			id: "0200EB289557ACC7"
+			tasks: [{
+				id: "5801436F05EECBE2"
+				title: "Nether Structures"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["267C6840F858C1FB"]
+			id: "3417C96EE24B97D0"
+			tasks: [{
+				id: "749F70DDA0604444"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42FD11714885F0A1"]
+			icon: "tconstruct:cobalt_ore"
+			id: "0E2E53D7D3F685DE"
+			tasks: [{
+				id: "1407E7821E196091"
+				item: "tconstruct:raw_cobalt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["42FD11714885F0A1"]
+			icon: "bigreactors:benitoite_ore"
+			id: "2B860907C002129F"
+			tasks: [{
+				id: "26CE408D47DBDBCD"
+				item: "bigreactors:benitoite_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["42FD11714885F0A1"]
+			icon: "silentgear:crimson_iron_ore"
+			id: "0DD58594941C7328"
+			tasks: [{
+				id: "2864B312FAA275DB"
+				item: "silentgear:raw_crimson_iron"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+	]
+	title: "The New Nether"
+}

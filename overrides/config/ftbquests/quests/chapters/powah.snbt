@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "0B3AB04834C93F0B"
+	icon: "powah:crystal_nitro"
+	id: "04D9204B1D18BAAE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Powah!"
+}

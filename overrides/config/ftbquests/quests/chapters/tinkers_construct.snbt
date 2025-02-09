@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "7B95E9545FEE6418"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "tconstruct:smeltery_controller"
+	id: "71383F51F9FF4AB3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FAF2C1A5D3FE2A6"]
+			id: "4F9375F15B3F2D12"
+			tasks: [{
+				id: "3416A7DECBBE7224"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FAF2C1A5D3FE2A6"]
+			id: "3A48034422FD49B2"
+			tasks: [{
+				id: "2F21C168D5BFC132"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FAF2C1A5D3FE2A6"]
+			id: "046174EC8A23004E"
+			tasks: [{
+				id: "2A38A1B43B338D1B"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70851D2EBE7CDB63"]
+			id: "2FAF2C1A5D3FE2A6"
+			tasks: [{
+				id: "6D1AA056879A0823"
+				title: "Better Tools with Tinkers"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A48034422FD49B2"
+				"046174EC8A23004E"
+				"4F9375F15B3F2D12"
+			]
+			id: "53E520185DDDB06D"
+			tasks: [{
+				id: "0BFA50CB4ACDD3DA"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E520185DDDB06D"]
+			id: "3C9E58FFBB4EE1E5"
+			tasks: [{
+				id: "7CD59FDD756E51AD"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C9E58FFBB4EE1E5"]
+			id: "058D1E53AA2767AE"
+			tasks: [{
+				id: "33079810936E7A5A"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C9E58FFBB4EE1E5"]
+			id: "2B7ADB8752B4EB6F"
+			tasks: [{
+				id: "2F72FA09B5FC2747"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C9E58FFBB4EE1E5"]
+			id: "6864D436CCD4CDF1"
+			tasks: [
+				{
+					count: 2L
+					id: "11633CE61D950E80"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53EBA050A6486F5F"
+					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C9E58FFBB4EE1E5"]
+			id: "24478B8557118B18"
+			tasks: [
+				{
+					id: "287D197557DC66C3"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "124E1F1218DDCE5B"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6864D436CCD4CDF1"
+				"24478B8557118B18"
+				"2B7ADB8752B4EB6F"
+				"058D1E53AA2767AE"
+			]
+			id: "20EAFB76B8896E92"
+			tasks: [{
+				id: "434CB800FB056C61"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"20EAFB76B8896E92"
+				"7D442EAFF8C5970C"
+				"142B96DF8E7C57B2"
+			]
+			id: "342A732F292751C3"
+			tasks: [{
+				id: "26754FE7F70E986F"
+				item: "tconstruct:tinkers_anvil"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF7ECE996CE0794"]
+			id: "7D442EAFF8C5970C"
+			tasks: [{
+				id: "320CDB5F004DE26E"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF7ECE996CE0794"]
+			id: "142B96DF8E7C57B2"
+			tasks: [{
+				id: "2536C4D73A1FA3DD"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FAF2C1A5D3FE2A6"]
+			id: "2AF7ECE996CE0794"
+			tasks: [{
+				id: "1060F0ACA7B64EB9"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["342A732F292751C3"]
+			id: "3CBFA01C74E368C4"
+			tasks: [{
+				id: "366A1019590A5E36"
+				title: "Real Tools!!"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+	]
+	title: "Tinkers Construct"
+}

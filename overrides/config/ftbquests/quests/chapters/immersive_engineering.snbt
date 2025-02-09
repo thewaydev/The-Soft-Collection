@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "0B3AB04834C93F0B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "immersiveengineering:ingot_steel"
+	id: "353E1BDDFB097FA2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46C1EA1212ED8C75"]
+			id: "6A93D70051AE6E3F"
+			tasks: [{
+				count: 27L
+				id: "2F74A3EE734052B7"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46C1EA1212ED8C75"]
+			id: "4D70AAEC0D38988F"
+			tasks: [{
+				count: 27L
+				id: "6F92F55C802F482C"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A93D70051AE6E3F"
+				"4D70AAEC0D38988F"
+			]
+			id: "6B9D9B8E3C5986AE"
+			rewards: [{
+				id: "355DD7CA29F3798C"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26FA8865E615FCF7"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B9D9B8E3C5986AE"]
+			id: "76BDDCF8068F356B"
+			tasks: [{
+				id: "533FCDC6D58A51D7"
+				title: "Onto Mekanism!!"
+				type: "checkmark"
+			}]
+			title: "Onto Thermal Expansion!!"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B9D9B8E3C5986AE"]
+			id: "6A7D6ED2995D8B28"
+			tasks: [{
+				id: "71B3A4BC4F889586"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			id: "56CA23C52BE9E523"
+			tasks: [{
+				id: "605F83502FD4D9EC"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["721296785D1D5B4E"]
+			id: "46C1EA1212ED8C75"
+			rewards: [{
+				id: "2ACDDAC0691D4D5B"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72CA347A6237225E"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56CA23C52BE9E523"]
+			id: "31318EBD3B93D158"
+			tasks: [{
+				id: "300D95107E00BF01"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56CA23C52BE9E523"]
+			id: "4C99CE90FF377E48"
+			tasks: [{
+				id: "67FE869AF189D39B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31318EBD3B93D158"
+				"4C99CE90FF377E48"
+				"39826817F0916DAA"
+				"139E2A6F11E45016"
+			]
+			description: ["Follow the guide in the Engineer's Manual ^^"]
+			id: "28CD79C33CE94A87"
+			min_required_dependencies: 3
+			rewards: [{
+				count: 3
+				id: "12822EACEB862CAC"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "6E9D6D55D7470A3D"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "653EB2019F86B296"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "0EA6C0186B8E662D"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "52D201A734F84A12"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "0D8396357D1BA908"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+			]
+			title: "Metal Press!!"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			id: "358522DF4D8F30FE"
+			rewards: [{
+				id: "671ADD59892DEF75"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0921B2D3452360D7"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			id: "752B3E50CD1A35BA"
+			rewards: [{
+				id: "789FF10BD94D2C37"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7FD83F3CBEAC6E"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"752B3E50CD1A35BA"
+				"358522DF4D8F30FE"
+			]
+			dependency_requirement: "one_completed"
+			id: "39826817F0916DAA"
+			tasks: [{
+				id: "4AC767EDC9D6EADD"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			description: ["By this point there are other power options avaliable outside of Immersive Engineering ^^"]
+			id: "139E2A6F11E45016"
+			tasks: [{
+				id: "19F02913BCBC128E"
+				title: "The Other Power Option"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			id: "13AB8E4A9C0B718B"
+			tasks: [{
+				id: "0C2D9B1C6ECB0940"
+				title: "Time for create!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+	title: "Immersive Engineering"
+}
