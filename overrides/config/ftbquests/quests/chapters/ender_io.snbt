@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "enderio:alloy_smelter"
 	id: "4FA915FBFD3F645E"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -52,6 +52,17 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009B6824EAAED0C5"]
+			id: "463B9F1EDF5309BB"
+			tasks: [{
+				id: "002F5834A1CE1F10"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 1.5d
 			y: 0.0d
 		}
 	]

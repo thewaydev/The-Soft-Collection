@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_items"
+	group: "737D1834EF03B5B3"
+	icon: "extendedcrafting:ultimate_table"
+	id: "56027CE396B7F9C0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Creative Items"
+}

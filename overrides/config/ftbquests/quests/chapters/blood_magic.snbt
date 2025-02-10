@@ -9,20 +9,33 @@
 	id: "30B5089EE2AB243E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["5ECB435083343B70"]
-		id: "3F734E960A4D4EB4"
-		tasks: [{
-			id: "1ECCE79EEE283D57"
-			item: {
-				Count: 1
-				id: "bloodmagic:sacrificialdagger"
-				tag: { }
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["020AB986F763FC0E"]
+			id: "3F734E960A4D4EB4"
+			tasks: [{
+				id: "1ECCE79EEE283D57"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F734E960A4D4EB4"]
+			id: "6C448251B1038865"
+			tasks: [{
+				id: "140CAB65176B6913"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
 	title: "Blood Magic"
 }

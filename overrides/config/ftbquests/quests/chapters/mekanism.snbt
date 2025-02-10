@@ -304,6 +304,113 @@
 			x: 4.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["1F712F13EFCD7FFF"]
+			id: "7474C64A25878E61"
+			tasks: [{
+				id: "2E110A3EB97EAFAF"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1AF508C6747D0404"
+				"1105365BB8045367"
+				"4D8B6F74EA73E7AC"
+			]
+			id: "174D19C6CF22BD7F"
+			tasks: [{
+				id: "1651D6273B86AD88"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7474C64A25878E61"
+				"174D19C6CF22BD7F"
+				"1D9165E16AE853CF"
+			]
+			id: "64C0E4FC05342581"
+			tasks: [{
+				id: "233EE979A206C4AE"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64C0E4FC05342581"
+				"1D9165E16AE853CF"
+			]
+			id: "001E76EF76A8BF8B"
+			tasks: [{
+				id: "3D3438F2DDA3EB82"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["001E76EF76A8BF8B"]
+			id: "361895E85AC4D4C9"
+			tasks: [{
+				id: "687F3E288D9D496A"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["361895E85AC4D4C9"]
+			id: "407D7267363479B2"
+			tasks: [{
+				id: "0658BF6372864A20"
+				title: "Mekanism Reactors"
+				type: "checkmark"
+			}]
+			title: "Advanced Mekanism"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1AF508C6747D0404"
+				"4D8B6F74EA73E7AC"
+				"1105365BB8045367"
+			]
+			id: "1D9165E16AE853CF"
+			tasks: [{
+				id: "2DAF41689ED97C14"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1105365BB8045367"
+				"4D8B6F74EA73E7AC"
+			]
+			id: "3CE391B3B77D1262"
+			tasks: [{
+				id: "2CA04882D83BD0BE"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
 	]
 	title: "Mekanism"
 }

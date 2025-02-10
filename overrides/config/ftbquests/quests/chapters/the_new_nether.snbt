@@ -102,6 +102,29 @@
 			x: 1.5d
 			y: -7.0d
 		}
+		{
+			dependencies: ["0200EB289557ACC7"]
+			id: "08623E8117BD9B8E"
+			tasks: [{
+				id: "50DCC112AAED5D8C"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Better Fortress!!"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0200EB289557ACC7"]
+			id: "1AA509FCF63AD0E6"
+			tasks: [{
+				id: "721E0A5F5A85BF90"
+				structure: "tconstruct:blood_island"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
 	]
 	title: "The New Nether"
 }

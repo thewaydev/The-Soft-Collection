@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "extendedcrafting:ultimate_singularity"
 	id: "31020C500A48FA90"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,7 +34,7 @@
 				}
 				type: "item"
 			}]
-			title: "3.8742049e+12 Iron"
+			title: "A Stupid Amount of Resources"
 			x: 0.0d
 			y: -2.0d
 		}

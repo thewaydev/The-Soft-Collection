@@ -7,6 +7,134 @@
 	id: "04D9204B1D18BAAE"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["60A860A9404D910D"]
+			id: "047C28A37364B324"
+			tasks: [{
+				id: "6FF4156CBF32982E"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["047C28A37364B324"]
+			id: "531798EDCC26E1E7"
+			tasks: [{
+				id: "3AB003E8D95AC58E"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["047C28A37364B324"]
+			id: "350BF00C62BD5228"
+			tasks: [{
+				id: "1C832649184E6C4E"
+				title: "Starter Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["531798EDCC26E1E7"]
+			id: "5E35BA6B782078EE"
+			tasks: [{
+				id: "2031FE6AD4719C24"
+				title: "Basic Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"531798EDCC26E1E7"
+				"4FD0C075B532EF85"
+			]
+			id: "7E6BC762CA575246"
+			tasks: [
+				{
+					id: "7B1989853495D8C0"
+					item: "powah:steel_energized"
+					type: "item"
+				}
+				{
+					id: "3C404E1F4C590A91"
+					item: "powah:capacitor_hardened"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E6BC762CA575246"]
+			id: "086479DE0D831502"
+			tasks: [{
+				id: "24863709825E9570"
+				title: "Hardened Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["531798EDCC26E1E7"]
+			id: "7055473B93F911CE"
+			tasks: [{
+				id: "4F7450D8BD4D9142"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7055473B93F911CE"]
+			id: "4FD0C075B532EF85"
+			tasks: [{
+				id: "2785331B9C15EC2E"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E6BC762CA575246"]
+			id: "36A2E303A0066EB0"
+			tasks: [
+				{
+					id: "1A5C09A46095B0FD"
+					item: "powah:crystal_blazing"
+					type: "item"
+				}
+				{
+					id: "5BDDAA13C748952D"
+					item: "powah:capacitor_blazing"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36A2E303A0066EB0"]
+			id: "00E34F92DC6CB54E"
+			tasks: [{
+				id: "2B050D816A7893F2"
+				title: "Blazing Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+	]
 	title: "Powah!"
 }

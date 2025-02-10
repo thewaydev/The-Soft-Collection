@@ -7,7 +7,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecolonies:blockhuttownhall"
 	id: "3A956D455384CED7"
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -84,6 +84,7 @@
 				item: "minecolonies:blockhutuniversity"
 				type: "item"
 			}]
+			title: "University Tier 1"
 			x: 15.0d
 			y: 0.0d
 		}
@@ -165,6 +166,182 @@
 			}]
 			x: 10.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "652108F7D0069D01"
+			tasks: [{
+				id: "2C3666A3FB9AB2CD"
+				item: "minecolonies:blockhutbarracks"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "6A102A72852510DD"
+			tasks: [{
+				id: "77218EC6B4F76A13"
+				item: "minecolonies:simplequarry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "432ED05872F76903"
+			tasks: [{
+				id: "7195AAE35BB70039"
+				item: "minecolonies:mediumquarry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "5FF77E904CCDC83C"
+			tasks: [{
+				id: "3C59515A2913D7A3"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2F1BC542063AFE"]
+			id: "27F595A4F35CEC45"
+			tasks: [{
+				id: "4E5AA5FA6132DFC2"
+				item: "minecolonies:blockhutrabbithutch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "11A4F53B9626ABF9"
+			tasks: [{
+				id: "6F19401D2EF4532C"
+				item: "minecolonies:blockhutcomposter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "2ADECA6A86F106C2"
+			tasks: [{
+				id: "599480BCF5D91B2C"
+				item: "minecolonies:blockhutstonemason"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "695C3E8627D3239C"
+			tasks: [{
+				id: "34CB5360FB68F57A"
+				item: "minecolonies:blockhutsawmill"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "4EC8FA6DBECB4841"
+			tasks: [{
+				id: "0D9D99171386DEA6"
+				item: "minecolonies:blockhutsmeltery"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "1680285A3F9C3958"
+			tasks: [{
+				id: "01C22393F57EEA7C"
+				item: "minecolonies:blockhutblacksmith"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "1F216A3BA2C7B7CD"
+			tasks: [{
+				id: "0F050C2267886B60"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "57B12DFB6E151A4D"
+			tasks: [{
+				id: "6C34E061ACC53E60"
+				item: "minecolonies:blockhutlibrary"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "29C9DAF90C2C9B13"
+			tasks: [{
+				id: "7B9ED50787FABAF3"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "292DBD3D8F76C409"
+			tasks: [{
+				id: "2492F4C391A8432F"
+				item: "minecolonies:blockhutmysticalsite"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "7733B727F7D56093"
+			tasks: [{
+				id: "6B700171511B9A71"
+				item: "minecolonies:blockhutgraveyard"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["33424A325095ECC2"]
+			id: "66D36E327599B31B"
+			tasks: [{
+				id: "62E1AAB910BC290A"
+				title: "University Tier 2"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 8.0d
 		}
 	]
 	title: "Minecolonies ^^"

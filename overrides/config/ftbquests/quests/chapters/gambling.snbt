@@ -3,20 +3,129 @@
 	default_quest_shape: ""
 	filename: "gambling"
 	group: "146F8C3CC9459266"
+	icon: "saros__money_mod:euro_500"
 	id: "401D3AA9322FC55F"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: "lootr:trophy"
-		id: "493D95531C2AFE88"
-		tasks: [{
-			id: "0BB2B1BF79B86C65"
-			item: "kubejs:gambling_coin"
-			type: "item"
-		}]
-		title: "Gambling!!"
-		x: 0.0d
-		y: -2.5d
-	}]
+	quests: [
+		{
+			icon: "lootr:trophy"
+			id: "493D95531C2AFE88"
+			tasks: [{
+				id: "0BB2B1BF79B86C65"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "Gambling!!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["493D95531C2AFE88"]
+			id: "27B1D47DD4A788F4"
+			rewards: [{
+				id: "3342CC60EB4BD4A5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "gambling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "13B1C60283E75D8D"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "1 Roll"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["493D95531C2AFE88"]
+			id: "29EC6171FE209FB9"
+			rewards: [{
+				count: 3
+				id: "5094519057905C16"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "gambling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2C6F5FB3DBD7EE70"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "3 Rolls"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["493D95531C2AFE88"]
+			id: "5BADC810101CB05D"
+			rewards: [{
+				count: 5
+				id: "239D6438F123A0CA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "gambling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "479ED2BBC302AD9A"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "5 Rolls"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["493D95531C2AFE88"]
+			id: "7DB87C3322C3254B"
+			rewards: [{
+				count: 25
+				id: "0D0A5E3BAF9BB3DE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "gambling"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "799385777FCB3CDE"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "25 Rolls"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
 	title: "Gambling"
 }

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrail_foregoing"
+	group: "0B3AB04834C93F0B"
+	icon: "industrialforegoing:latex_processing_unit"
+	id: "31BA11686E89F093"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Industrail Foregoing"
+}

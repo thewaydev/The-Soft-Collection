@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "02174875258E6E84"
+	icon: {
+		Count: 1
+		id: "aether:holy_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3C34DBE5D5CBF824"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Aether"
+}

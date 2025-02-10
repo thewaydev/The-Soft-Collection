@@ -2,8 +2,6 @@ ServerEvents.recipes(FurryModpack => {
 
     FurryModpack.remove({ output: 'mekanism:enriched_iron', mod: 'mekanism'})
     FurryModpack.remove({ output: 'mekanism:dust_steel', mod: 'mekanism'})
-
-
     FurryModpack.remove({ output: 'evilcraft:lightning_bomb'})
     FurryModpack.remove({ output: 'nuclear_bombs:thermonuclearbomb'})
     FurryModpack.remove({ output: 'nuclear_bombs:foliage_bomb'})

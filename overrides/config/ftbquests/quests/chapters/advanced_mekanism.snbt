@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_mekanism"
+	group: "0B3AB04834C93F0B"
+	icon: "mekanism:pellet_antimatter"
+	id: "272A7468EE8089D7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Advanced Mekanism"
+}

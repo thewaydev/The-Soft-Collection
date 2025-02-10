@@ -1,5 +1,14 @@
 {
 	id: "70183E31EE2FA8C9"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "gambling"
+	}
 	loot_size: 1
 	order_index: 0
 	rewards: [
@@ -1356,6 +1365,206 @@
 		{ item: "ars_nouveau:glyph_exchange" }
 		{ item: "ars_nouveau:glyph_fangs" }
 		{ item: "ars_nouveau:glyph_fell" }
+		{ count: 64, item: "ars_elemental:yellow_archwood_log" }
+		{ count: 64, item: "ars_nouveau:green_archwood_log" }
+		{ count: 64, item: "ars_nouveau:purple_archwood_log" }
+		{ count: 64, item: "ars_nouveau:red_archwood_log" }
+		{ count: 64, item: "ars_nouveau:blue_archwood_log" }
+		{ count: 64, item: "mysticalagriculture:inferium_essence" }
+		{ count: 128, item: "mysticalagriculture:diamond_essence" }
+		{ count: 128, item: "mysticalagriculture:iron_essence" }
+		{ count: 2, item: "mysticalagriculture:iron_seeds" }
+		{ item: "thermal:machine_insolator" }
+		{ count: 64, item: "minecraft:cooked_porkchop" }
+		{ count: 64, item: "minecraft:bread" }
+		{ count: 32, item: "minecraft:golden_apple" }
+		{ count: 16, item: "minecraft:golden_apple" }
+		{ count: 16, item: "minecraft:enchanted_golden_apple" }
+		{ count: 32, item: "minecraft:cooked_beef" }
+		{ count: 32, item: "minecraft:cooked_rabbit" }
+		{ count: 32, item: "minecraft:cooked_chicken" }
+		{ count: 64, item: "minecraft:cooked_beef" }
+		{ count: 64, item: "minecraft:cooked_beef" }
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Fluid: {
+						Amount: 250
+						FluidName: "gtceu:potion"
+						Tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:tnt" }
+		{ count: 64, item: "minecraft:gunpowder" }
+		{ count: 64, item: "minecraft:gunpowder" }
+		{ item: "bloodmagic:weakbloodorb", weight: 0.5f }
+		{ item: "bloodmagic:apprenticebloodorb", weight: 0.3f }
+		{ item: "mekanism:basic_chemical_tank" }
+		{ count: 4, item: "draconicevolution:nether_draconium_ore" }
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:silver"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:bronze"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:invar"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ count: 64, item: "powah:energy_cable_starter" }
+		{ item: "industrialforegoing:mob_crusher" }
+		{ item: "industrialforegoing:plant_gatherer" }
+		{ item: "industrialforegoing:sewer" }
+		{ item: "industrialforegoing:plant_sower" }
+		{ item: "industrialforegoing:plant_fertilizer" }
+		{ item: "industrialforegoing:mob_slaughter_factory" }
+		{ item: "industrialforegoing:sewage_composter" }
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:bismuth"
+					}
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lapis"
+					}
+				}
+			}
+		}
+		{ item: "morediscs:music_disc_vixized" }
+		{ item: "morediscs:music_disc_tragicdecision" }
+		{ item: "morediscs:music_disc_dreams" }
+		{ item: "morediscs:music_disc_tearsofjoy" }
+		{ item: "morediscs:music_disc_victory" }
+		{ item: "morediscs:music_disc_wardensprize" }
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:energized_glowstone"
+					}
+				}
+			}
+		}
+		{ item: "powah:energizing_orb" }
+		{ count: 3, item: "powah:energizing_rod_starter" }
+		{ item: "powah:energizing_rod_basic" }
+		{ item: "create:fluid_tank" }
+		{ item: "create:clockwork_bearing" }
+		{ count: 2, item: "create:copper_valve_handle" }
+		{ count: 32, item: "create:white_sail" }
+		{ count: 2, item: "create:polished_rose_quartz" }
+		{ count: 64, item: "create:experience_nugget" }
+		{
+			item: {
+				Count: 1
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:copper_diving_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:goggles" }
+		{
+			item: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "create:brass_ingot" }
+		{ count: 64, item: "create:andesite_alloy" }
+		{ count: 32, item: "create:zinc_ingot" }
+		{ count: 2, item: "create:deployer" }
+		{ item: "create:mechanical_saw" }
+		{ item: "create:mechanical_drill" }
+		{ count: 2, item: "create:large_water_wheel" }
+		{ count: 2, item: "create:water_wheel" }
+		{ count: 16, item: "gtceu:bronze_normal_fluid_pipe" }
+		{ count: 2, item: "elevatorid:elevator_light_gray" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofaconitem" }
+		{ item: "gtceu:hp_steam_solar_boiler" }
+		{ item: "gtceu:hp_steam_solar_boiler" }
+		{ count: 16, item: "create_new_age:overcharged_iron_wire" }
+		{ count: 2, item: "create_new_age:generator_coil" }
+		{ count: 16, item: "pamhc2foodextended:anchovypepperonipizzaitem" }
+		{ count: 32, item: "pamhc2foodextended:bbqchickenpizzaitem" }
+		{ count: 16, item: "pamhc2foodextended:chimichangaitem" }
+		{ count: 2, item: "mob_grinding_utils:fan_upgrade_speed" }
+		{ count: 2, item: "irons_spellbooks:rare_ink" }
+		{ count: 16, item: "megacells:accumulation_processor" }
+		{ count: 4, item: "irons_spellbooks:uncommon_ink" }
+		{ count: 4, item: "irons_spellbooks:blank_rune" }
+		{ item: "irons_spellbooks:frostward_ring" }
+		{ count: 2, item: "mob_grinding_utils:fan" }
+		{ count: 2, item: "mob_grinding_utils:fan_upgrade_height" }
+		{ count: 2, item: "mob_grinding_utils:fan_upgrade_width" }
+		{ count: 16, item: "megacells:accumulation_processor" }
+		{ count: 32, item: "pamhc2foodcore:applepieitem" }
+		{ count: 64, item: "ae2:certus_quartz_crystal" }
+		{ count: 32, item: "pamhc2foodcore:glowberrypieitem" }
+		{ count: 64, item: "ae2:charged_certus_quartz_crystal" }
+		{ count: 32, item: "pamhc2foodcore:chocolatepieitem" }
+		{ count: 32, item: "pamhc2foodcore:choruspieitem" }
+		{ count: 32, item: "ae2:certus_quartz_dust" }
+		{ count: 16, item: "ae2:quartz_block" }
+		{ count: 32, item: "pamhc2foodcore:applepopsicleitem" }
+		{ count: 32, item: "powah:energy_cable_hardened" }
+		{ count: 32, item: "powah:energy_cable_basic" }
 	]
 	title: "GAMBLING"
 }
