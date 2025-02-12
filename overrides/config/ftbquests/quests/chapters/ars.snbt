@@ -30,6 +30,50 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3987EDC0C4D124FF"]
+			id: "10CD9D4604984DE1"
+			tasks: [{
+				id: "49FD69BE4175A126"
+				title: "Glyphs"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10CD9D4604984DE1"]
+			id: "4E02F9A035B3945C"
+			tasks: [{
+				id: "59D1259A9E3BEA21"
+				title: "Tier 1 Glyphs"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10CD9D4604984DE1"]
+			id: "07A839AF895F38C2"
+			tasks: [{
+				id: "6A5D263F3CE0BE2A"
+				title: "Tier 2 Glyphs"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10CD9D4604984DE1"]
+			id: "09ED7BF647B10F80"
+			tasks: [{
+				id: "5A2B968767194BAC"
+				title: "Tier 3 Glyphs"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
 	]
 	title: "Ars Nouveau"
 }

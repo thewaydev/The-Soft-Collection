@@ -65,6 +65,17 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["463B9F1EDF5309BB"]
+			id: "7A6C91E0E5430BE2"
+			tasks: [{
+				id: "3F8C11A4AEA1658F"
+				title: "Alloys!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
 	]
 	title: "Ender IO"
 }

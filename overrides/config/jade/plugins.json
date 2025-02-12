@@ -111,6 +111,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "waystones": {
     "waystone": true
   },

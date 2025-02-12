@@ -256,7 +256,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3D2FC78401040FD4"]
+			dependencies: ["6964F6630876F84B"]
 			hide_dependency_lines: true
 			id: "75141CB253299A0A"
 			shape: "diamond"
@@ -410,6 +410,104 @@
 			}]
 			x: 6.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3D2FC78401040FD4"]
+			hide_dependency_lines: true
+			id: "0FEDBDD5A4CFD775"
+			shape: "diamond"
+			tasks: [{
+				id: "57B3B896A7BD9408"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FEDBDD5A4CFD775"]
+			id: "7CFD3A599A2904CE"
+			shape: "diamond"
+			tasks: [{
+				id: "042AA15AAE91060D"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CFD3A599A2904CE"]
+			id: "63AE8C4DF689DDBC"
+			shape: "diamond"
+			tasks: [{
+				id: "43424A1670890725"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63AE8C4DF689DDBC"]
+			id: "47B191C9C303B6D6"
+			shape: "diamond"
+			tasks: [{
+				id: "4F16FCFE72E79823"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D2FC78401040FD4"]
+			hide_dependency_lines: true
+			id: "11A8A7C9FB4A709B"
+			shape: "diamond"
+			tasks: [{
+				id: "0CC301E118E3D14A"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11A8A7C9FB4A709B"]
+			id: "40078445DE7B87F5"
+			shape: "diamond"
+			tasks: [{
+				id: "0E7E6E7AD19799EE"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40078445DE7B87F5"]
+			id: "5B67E9C2DE24B503"
+			shape: "diamond"
+			tasks: [{
+				id: "29C4E42886779A6A"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B67E9C2DE24B503"]
+			id: "124BF3D838A78259"
+			shape: "diamond"
+			tasks: [{
+				id: "79156193B82BF929"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
 		}
 	]
 	title: "Mekanism"

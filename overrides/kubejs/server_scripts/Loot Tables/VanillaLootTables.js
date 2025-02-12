@@ -1,0 +1,5 @@
+LootJS.modifiers((FurryModpack) => {
+
+    
+
+});

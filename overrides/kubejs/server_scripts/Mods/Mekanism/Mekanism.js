@@ -10,9 +10,11 @@ ServerEvents.recipes(FurryModpack => {
     FurryModpack.remove({ output: 'mekanism:electrolytic_separator'})
     FurryModpack.remove({ output: 'mekanism:pressurized_reaction_chamber'})
     FurryModpack.remove({ output: 'mekanism:rotary_condensentrator'})
+    FurryModpack.remove({ output: 'mekanism:basic_fluid_tank'})
+    FurryModpack.remove({ output: 'mekanism:basic_chemical_tank'})
     
 
-    FurryModpack.shaped('mekanism:steel_casing', [
+    FurryModpack.shaped('mekanism:basic_fluid_tank', [
 
         'ABA',
         'CDC',
@@ -130,6 +132,30 @@ ServerEvents.recipes(FurryModpack => {
         E: 'mekanism:ultimate_fluid_tank'
     })
 
+    FurryModpack.shaped('mekanism:basic_fluid_tank', [
 
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        A: 'minecraft:redstone',
+        B: 'minecraft:iron_ingot',
+        C: 'mekanism:alloy_infused',
+        D: 'mekanism:basic_control_circuit'
+    })
+
+    FurryModpack.shaped('mekanism:basic_chemical_tank', [
+
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        A: 'minecraft:redstone',
+        B: 'minecraft:iron_block',
+        C: 'mekanism:alloy_infused',
+        D: 'mekanism:basic_control_circuit'
+    })
 
 })

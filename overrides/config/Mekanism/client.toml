@@ -50,7 +50,7 @@
 	[client.gui]
 		#Opacity of HUD used by MekaSuit.
 		#Range: 0.0 ~ 1.0
-		hudOpacity = 0.4000000059604645
+		hudOpacity = 0.28070175647735596
 		#Color (RGB) of HUD used by MekaSuit.
 		#Range: 0 ~ 16777215
 		hudColor = 4257264
@@ -90,8 +90,8 @@
 				y = 2147483647
 
 			[client.gui.window.mekaSuitHelmet]
-				x = 2147483647
-				y = 2147483647
+				x = 54
+				y = 48
 
 			[client.gui.window.rename]
 				x = 2147483647
@@ -110,8 +110,8 @@
 				y = 2147483647
 
 			[client.gui.window.upgrade]
-				x = 2147483647
-				y = 2147483647
+				x = 10
+				y = 15
 
 	#QIO Config
 	[client.qio]

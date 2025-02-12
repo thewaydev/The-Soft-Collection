@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "2EBF24E6F5161F3D", title: "Tips and Tricks" }
 		{ id: "737D1834EF03B5B3", title: "Progression" }
 		{ id: "3394A3E3D39C13B9", title: "Storage" }
 		{ id: "6B13F6F6BF5E3F21", title: "Magic" }

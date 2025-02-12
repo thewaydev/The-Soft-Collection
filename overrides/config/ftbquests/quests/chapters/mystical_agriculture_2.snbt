@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture_2"
+	group: "2EBF24E6F5161F3D"
+	id: "61309D7F25018BBB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mystical Agriculture Help"
+}

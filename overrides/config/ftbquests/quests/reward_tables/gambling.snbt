@@ -1565,6 +1565,547 @@
 		{ count: 32, item: "pamhc2foodcore:applepopsicleitem" }
 		{ count: 32, item: "powah:energy_cable_hardened" }
 		{ count: 32, item: "powah:energy_cable_basic" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:mjolnir"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:sword/attribute/lacerating": 0.39243567f
+							"irons_spellbooks:armor/attribute/cooldown": 0.6185365f
+						}
+						name: "{\"color\":\"#808080\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/lacerating\"},\"\",{\"translate\":\"affix.irons_spellbooks:armor/attribute/cooldown.suffix\"}]}"
+						rarity: "apotheosis:common"
+						uuids: [[I;
+							-353416426
+							-225688771
+							-1502627187
+							1265702569
+						]]
+					}
+					nether_power: "socket_empty"
+					runic_power: "socket_empty"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "industrialforegoing:mycelial_explosive" }
+		{ item: "minecraft:smithing_table" }
+		{ item: "minecraft:anvil" }
+		{ count: 16, item: "minecraft:glowstone" }
+		{ count: 16, item: "minecraft:glowstone" }
+		{ item: "minecraft:enchanting_table" }
+		{ count: 8, item: "minecraft:furnace" }
+		{ item: "industrialforegoing:plant_sower" }
+		{ item: "industrialforegoing:plant_fertilizer" }
+		{ item: "industrialforegoing:animal_rancher" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:tungsten"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "mysticalagradditions:imperium"
+				}
+			}
+		}
+		{ count: 16, item: "integrateddynamics:menril_log" }
+		{ item: "industrialforegoing:plant_sower" }
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 4, item: "minecraft:sculk_sensor" }
+		{ count: 16, item: "minecraft:bone_block" }
+		{ item: "apotheosis:gem_cutting_table" }
+		{ count: 64, item: "minecraft:obsidian" }
+		{ count: 2, item: "bhc:yellow_heart_canister" }
+		{ count: 2, item: "bhc:red_heart_canister" }
+		{ item: "compressium:diamond_1" }
+		{ item: "compressium:iron_2" }
+		{ item: "compressium:gold_1" }
+		{ item: "compressium:emerald_1" }
+		{ count: 2, item: "compressium:clay_2" }
+		{ item: "compressium:dirt_4" }
+		{ item: "compressium:coal_3" }
+		{ item: "compressium:quartz_2" }
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:range_addon2"
+				tag: {
+					TitaniumAugment: {
+						Range: 2.0f
+					}
+				}
+			}
+		}
+		{ item: "compressium:redstone_3" }
+		{ count: 2, item: "compressium:redstone_3" }
+		{ count: 2, item: "compressium:redstone_3" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:atomic_disassembler"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanism:jetpack"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 24000L
+								gasName: "mekanism:hydrogen"
+							}
+						}]
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "appmek:chemical_storage_cell_64k"
+				tag: { }
+			}
+			weight: 0.5f
+		}
+		{ count: 8, item: "gtceu:lv_electric_motor" }
+		{ count: 2, item: "gtceu:lp_steam_solar_boiler" }
+		{ count: 2, item: "gtceu:lp_steam_macerator" }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					woodType: "jungle"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+		{ item: "morediscs:music_disc_phonikpace" }
+		{ count: 4, item: "productivebees:sturdy_bee_cage" }
+		{ count: 4, item: "productivebees:bee_cage" }
+		{ count: 64, item: "pamhc2foodextended:chickentendersitem" }
+		{ count: 64, item: "pamhc2foodextended:chickentendersmealitem" }
+		{ count: 4, item: "powah:ender_gate_basic" }
+		{ count: 4, item: "powah:ender_gate_starter" }
+		{
+			item: {
+				Count: 1
+				id: "ae2:item_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:item_storage_cell_64k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:item_storage_cell_256k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_64k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_256k"
+				tag: { }
+			}
+		}
+		{ item: "powah:energy_cell_basic" }
+		{ item: "botania:black_lotus" }
+		{
+			item: {
+				Count: 1
+				id: "enderio:loot_capacitor"
+				tag: {
+					CapacitorData: {
+						Base: 1.716862f
+						Modifiers: {
+							BURNING_ENERGY_GENERATION: 2.1027832f
+							FUEL_EFFICIENCY: 1.5599985f
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_elemental:fire_caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: "The magic flames are fueled by the healing magic."
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: "Phoenix Fire"
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_ignite"
+									part2: "ars_nouveau:glyph_flare"
+									part3: "ars_nouveau:glyph_heal"
+									part4: "ars_nouveau:glyph_flare"
+									part5: "ars_nouveau:glyph_heal"
+									part6: "ars_nouveau:glyph_flare"
+									size: 7
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+					display: {
+						Name: "{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Phoenix Fire\"}"
+					}
+				}
+			}
+		}
+		{ count: 4, item: "ars_nouveau:wilden_wing" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "morediscs:music_disc_desert" }
+		{ item: "mekanism:electric_pump" }
+		{ item: "mekanism:electric_pump" }
+		{ item: "mekanism:electric_pump" }
+		{ item: "mekanism:electric_pump" }
+		{ count: 24, item: "pneumaticcraft:compressed_stone" }
+		{ count: 4, item: "ars_nouveau:source_gem" }
+		{ item: "ars_nouveau:ritual_harvest" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+		}
+		{ item: "create:hand_crank" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:free_runners_armored"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000"
+						}]
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 8, item: "pneumaticcraft:pressure_tube" }
+		{ item: "create:blaze_burner" }
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:steel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:steel_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:steel_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:steel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:steel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:osmium_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:osmium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:wood"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:invar"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ item: "mysticalagriculture:inferium_furnace" }
+		{ count: 2, item: "mysticalagriculture:inferium_growth_accelerator" }
+		{ count: 32, item: "mysticalagriculture:inferium_farmland" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_watering_can"
+				tag: {
+					Active: 0b
+					Water: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:battlesign"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:manyullyn"
+						"mysticalagradditions:imperium"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:insatiable"
+						}
+						{
+							level: 1
+							name: "mysticalagradditions:prosperous"
+						}
+						{
+							level: 1
+							name: "tconstruct:bonking"
+						}
+						{
+							level: 1
+							name: "tconstruct:knockback"
+						}
+						{
+							level: 1
+							name: "tconstruct:blocking"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 5.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:block_amount": 50.0f
+						"tconstruct:durability": 3070.0f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.5f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 3
+					}
+				}
+			}
+		}
 	]
 	title: "GAMBLING"
 }

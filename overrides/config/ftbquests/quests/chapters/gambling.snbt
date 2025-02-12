@@ -23,6 +23,13 @@
 		{
 			can_repeat: true
 			dependencies: ["493D95531C2AFE88"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "gambling"
+				}
+			}
 			id: "27B1D47DD4A788F4"
 			rewards: [{
 				id: "3342CC60EB4BD4A5"
@@ -48,6 +55,13 @@
 		{
 			can_repeat: true
 			dependencies: ["493D95531C2AFE88"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "gambling"
+				}
+			}
 			id: "29EC6171FE209FB9"
 			rewards: [{
 				count: 3
@@ -75,6 +89,13 @@
 		{
 			can_repeat: true
 			dependencies: ["493D95531C2AFE88"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "gambling"
+				}
+			}
 			id: "5BADC810101CB05D"
 			rewards: [{
 				count: 5
@@ -102,6 +123,13 @@
 		{
 			can_repeat: true
 			dependencies: ["493D95531C2AFE88"]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "gambling"
+				}
+			}
 			id: "7DB87C3322C3254B"
 			rewards: [{
 				count: 25
