@@ -2106,6 +2106,217 @@
 				}
 			}
 		}
+		{ count: 2, item: "pneumaticcraft:refinery_output" }
+		{ item: "pneumaticcraft:refinery" }
+		{ item: "pneumaticcraft:gas_lift" }
+		{ count: 32, item: "pneumaticcraft:compressed_stone" }
+		{ count: 2, item: "pneumaticcraft:fluid_mixer" }
+		{ count: 2, item: "pneumaticcraft:medium_tank" }
+		{ item: "pneumaticcraft:large_tank" }
+		{ item: "pneumaticcraft:huge_tank", weight: 0.5f }
+		{ count: 8, item: "pneumaticcraft:pressure_tube" }
+		{ item: "functionalstorage:copper_upgrade" }
+		{ item: "functionalstorage:copper_upgrade" }
+		{ count: 2, item: "functionalstorage:copper_upgrade" }
+		{ item: "functionalstorage:gold_upgrade" }
+		{ item: "functionalstorage:diamond_upgrade" }
+		{ item: "functionalstorage:netherite_upgrade", weight: 0.5f }
+		{ count: 4, item: "minecolonies:blockminecoloniesrack" }
+		{ item: "mekanismgenerators:solar_generator" }
+		{ item: "mekanismgenerators:wind_generator" }
+		{ count: 32, item: "pipez:item_pipe" }
+		{ count: 32, item: "pipez:fluid_pipe" }
+		{ count: 32, item: "pipez:energy_pipe" }
+		{ count: 8, item: "pipez:universal_pipe" }
+		{ count: 32, item: "pipez:gas_pipe" }
+		{ item: "rftoolsbuilder:shape_card_def" }
+		{ item: "expatternprovider:tag_storage_bus" }
+		{ item: "expatternprovider:precise_storage_bus" }
+		{ count: 2, item: "expatternprovider:ex_pattern_provider" }
+		{ count: 2, item: "expatternprovider:ex_interface" }
+		{ item: "expatternprovider:ex_drive" }
+		{ item: "expatternprovider:ex_molecular_assembler" }
+		{ item: "refinedstorage:disk_drive" }
+		{ item: "ae2:drive" }
+		{ item: "ae2:drive" }
+		{ item: "ae2:interface" }
+		{ count: 2, item: "ae2:interface" }
+		{ count: 2, item: "ae2:interface" }
+		{ item: "ars_nouveau:imbuement_chamber" }
+		{ item: "ars_nouveau:source_jar" }
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 64, item: "minecraft:spruce_log" }
+		{ item: "pneumaticcraft:minigun", weight: 0.05f }
+		{ count: 16, item: "mekanism:advanced_pressurized_tube" }
+		{ item: "industrialforegoing:latex_processing_unit" }
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:processing_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Processing: 2.0f
+					}
+				}
+			}
+		}
+		{ item: "ae2:cell_component_64k" }
+		{ item: "modularrouters:flinger_module" }
+		{ count: 16, item: "pamhc2foodextended:elderberryyogurtitem" }
+		{
+			item: {
+				Count: 1
+				id: "gtceu:nightvision_goggles"
+				tag: { }
+			}
+			weight: 0.25f
+		}
+		{ count: 32, item: "minecraft:diamond" }
+		{ count: 32, item: "minecraft:chest" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "mysticalagradditions:inferium"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 21
+					}
+				}
+				id: "immersiveengineering:revolver"
+			}
+		}
+		{ count: 64, item: "immersiveengineering:armor_piercing" }
+		{ count: 2, item: "immersiveengineering:blastfurnace_preheater" }
+		{ item: "immersiveengineering:workbench" }
+		{ item: "immersiveengineering:watermill" }
+		{ item: "immersiveengineering:watermill" }
+		{ item: "immersiveengineering:windmill" }
+		{ item: "immersiveengineering:windmill" }
+		{ item: "immersiveengineering:capacitor_lv" }
+		{ item: "immersiveengineering:capacitor_mv" }
+		{ item: "immersiveengineering:dynamo" }
+		{ item: "enderio:xp_vacuum" }
+		{ item: "enderio:slice_and_splice" }
+		{ item: "enderio:basic_capacitor_bank" }
+		{ item: "enderio:advanced_capacitor_bank" }
+		{ item: "enderio:vibrant_capacitor_bank" }
+		{ count: 2, item: "enderio:travel_anchor" }
+		{ item: "enderio:xp_vacuum" }
+		{ item: "enderio:vacuum_chest" }
+		{ item: "enderio:vacuum_chest" }
+		{ item: "enderio:alloy_smelter" }
+		{ item: "enderio:stirling_generator" }
+		{ item: "modularrouters:modular_router" }
+		{ item: "modularrouters:range_down_augment" }
+		{ item: "modularrouters:range_up_augment" }
+		{ item: "modularrouters:pushing_augment" }
+		{ item: "modularrouters:regulator_augment" }
+		{ item: "modularrouters:redstone_augment" }
+		{ item: "modularrouters:mimic_augment" }
+		{ item: "modularrouters:stack_augment" }
+		{ item: "modularrouters:fast_pickup_augment" }
+		{ count: 2, item: "powah:ender_gate_starter" }
+		{ count: 2, item: "powah:ender_gate_basic" }
+		{ count: 2, item: "powah:ender_gate_hardened" }
+		{ count: 2, item: "powah:ender_gate_blazing" }
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "ironfurnaces:obsidian_furnace" }
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "ironfurnaces:gold_furnace", weight: 0.5f }
+		{ item: "minecraft:nether_star" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_watering_can"
+				tag: {
+					Active: 0b
+					Water: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:tertium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "enderio:pulsating_alloy_ingot" }
 	]
 	title: "GAMBLING"
 }

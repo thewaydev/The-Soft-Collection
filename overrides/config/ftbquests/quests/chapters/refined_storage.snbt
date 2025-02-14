@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "refined_storage"
 	group: "3394A3E3D39C13B9"
+	icon: "refinedstorage:red_creative_controller"
 	id: "09E727148FCFF6EC"
 	order_index: 2
 	quest_links: [ ]

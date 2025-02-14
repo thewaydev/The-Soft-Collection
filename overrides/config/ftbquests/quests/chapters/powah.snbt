@@ -31,7 +31,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["047C28A37364B324"]
+			dependencies: ["531798EDCC26E1E7"]
 			id: "350BF00C62BD5228"
 			tasks: [{
 				id: "1C832649184E6C4E"
@@ -99,8 +99,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7E6BC762CA575246"]
@@ -212,7 +212,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3E9438B4248B533E"]
+			dependencies: [
+				"3E9438B4248B533E"
+				"2F90E44C5C404A7C"
+			]
 			id: "1210B4F13EE7AFC5"
 			tasks: [{
 				id: "79264E524A339268"
@@ -237,7 +240,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2A9D9F569EDCD847"]
+			dependencies: [
+				"2A9D9F569EDCD847"
+				"1210B4F13EE7AFC5"
+			]
 			id: "08F1EE5C9B9AEFFD"
 			tasks: [{
 				id: "43BD7A01CD98F7A2"
@@ -296,6 +302,549 @@
 			}]
 			x: 14.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"086479DE0D831502"
+				"784CBB374C19C49B"
+			]
+			id: "7DCF33DAC00B6ED3"
+			tasks: [{
+				id: "101C3F6768B98904"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["350BF00C62BD5228"]
+			id: "47EBF47A2F3CCCE7"
+			tasks: [{
+				id: "79D937368B888B2A"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["350BF00C62BD5228"]
+			id: "1A14579BECDA72F0"
+			tasks: [{
+				id: "76E37094A9DF4A66"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["350BF00C62BD5228"]
+			id: "65ACCC55BBA695E7"
+			tasks: [{
+				id: "5E8DFB4164899CF8"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A2E303A0066EB0"]
+			id: "5064101EC5A9B187"
+			tasks: [
+				{
+					id: "278701133630AD62"
+					item: "powah:crystal_niotic"
+					type: "item"
+				}
+				{
+					id: "63C6DBDA4FA2AA61"
+					item: "powah:capacitor_niotic"
+					type: "item"
+				}
+			]
+			title: "Niotic Crystal"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5064101EC5A9B187"]
+			id: "563E033FEF59E697"
+			tasks: [{
+				id: "1FF12A32E080CDC0"
+				title: "Niotic Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["563E033FEF59E697"]
+			id: "14DB68FBC56D695B"
+			tasks: [{
+				id: "7022B157EDA09538"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5064101EC5A9B187"]
+			id: "0143CD013628826E"
+			tasks: [
+				{
+					id: "6D6A0575CA7E939E"
+					item: "powah:crystal_spirited"
+					type: "item"
+				}
+				{
+					id: "55120A0A7FC6CEAA"
+					item: "powah:capacitor_spirited"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0143CD013628826E"]
+			id: "17177D505ACEC48F"
+			tasks: [{
+				id: "4698F942B9F7BCF3"
+				title: "Spirited Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0143CD013628826E"]
+			id: "556A545E47A8B5B1"
+			tasks: [
+				{
+					id: "795C21AFBE32EDF3"
+					item: "powah:crystal_nitro"
+					type: "item"
+				}
+				{
+					id: "2BB3AD004C6B99AD"
+					item: "powah:capacitor_nitro"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["556A545E47A8B5B1"]
+			id: "79847C2D466DB906"
+			tasks: [{
+				id: "537F734E5D116124"
+				title: "Nitro Tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"00E34F92DC6CB54E"
+				"2A9D9F569EDCD847"
+			]
+			id: "75E559ABBEADDDB1"
+			tasks: [{
+				id: "1F90D8898CEE6A7A"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7055473B93F911CE"
+				"531798EDCC26E1E7"
+			]
+			id: "273C0B0EA9BBB89F"
+			tasks: [{
+				id: "01540443E6202256"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7E6BC762CA575246"
+				"273C0B0EA9BBB89F"
+			]
+			id: "298E13AD808F6385"
+			tasks: [{
+				id: "2373322135D7D8EA"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"697BF123F39AA005"
+				"5064101EC5A9B187"
+			]
+			id: "2A175FA31C1C9C54"
+			tasks: [{
+				id: "70FD12F4835ED955"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"298E13AD808F6385"
+				"36A2E303A0066EB0"
+			]
+			id: "697BF123F39AA005"
+			tasks: [{
+				id: "47EC1F031D487B5E"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A175FA31C1C9C54"
+				"0143CD013628826E"
+			]
+			id: "4AE43ED0A5AEA8AD"
+			tasks: [{
+				id: "3413CA5EAAEEC3C4"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4AE43ED0A5AEA8AD"
+				"556A545E47A8B5B1"
+			]
+			id: "1B210F949C5D9FB9"
+			tasks: [{
+				id: "045690C63976FFA3"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["17177D505ACEC48F"]
+			id: "20E71183549FA802"
+			tasks: [{
+				id: "26A4F9C28EDF83BA"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["79847C2D466DB906"]
+			id: "058C5F3850DF0B4D"
+			tasks: [{
+				id: "20F3C258330FA067"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"75E559ABBEADDDB1"
+				"563E033FEF59E697"
+			]
+			id: "1E470A586B4E3A6D"
+			tasks: [{
+				id: "6B047D2B78FB1B51"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5E35BA6B782078EE"
+				"47EBF47A2F3CCCE7"
+			]
+			id: "5C5249C3DE99A3ED"
+			tasks: [{
+				id: "5E615C43969266DD"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1A14579BECDA72F0"
+				"5E35BA6B782078EE"
+			]
+			id: "03FA67EE0FB5B517"
+			tasks: [{
+				id: "7329D85B845E93F5"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"65ACCC55BBA695E7"
+				"5E35BA6B782078EE"
+			]
+			id: "2A3CD92E42106D86"
+			tasks: [{
+				id: "223277FEE907278E"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1A32DF491759EB34"
+				"086479DE0D831502"
+			]
+			id: "1399E0811962EA3C"
+			tasks: [{
+				id: "358D986626DBA142"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1E470A586B4E3A6D"
+				"17177D505ACEC48F"
+			]
+			id: "3EABFBFCCB97724B"
+			tasks: [{
+				id: "1AFD715F36E0BE00"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3EABFBFCCB97724B"
+				"79847C2D466DB906"
+			]
+			id: "2803F1E1FBF6D9DF"
+			tasks: [{
+				id: "754210C4B97149BF"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"00E34F92DC6CB54E"
+				"1399E0811962EA3C"
+			]
+			id: "536773B29EBCA31E"
+			tasks: [{
+				id: "32AF0469FC9A7469"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7DCF33DAC00B6ED3"
+				"00E34F92DC6CB54E"
+			]
+			id: "6095C5CF3B3A0AF5"
+			tasks: [{
+				id: "7CCC3529FA11DE50"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5C5249C3DE99A3ED"
+				"086479DE0D831502"
+			]
+			id: "68D07152018E8A96"
+			tasks: [{
+				id: "2812F2015FD2BFA8"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"03FA67EE0FB5B517"
+				"086479DE0D831502"
+			]
+			id: "3850B701C5AC894B"
+			tasks: [{
+				id: "2678BCD0B7947BBC"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6095C5CF3B3A0AF5"
+				"563E033FEF59E697"
+			]
+			id: "64008791B1019899"
+			tasks: [{
+				id: "55337A812710787C"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"64008791B1019899"
+				"17177D505ACEC48F"
+			]
+			id: "79BBE4DAF1609CEC"
+			tasks: [{
+				id: "010268A631DC34AB"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"79847C2D466DB906"
+				"79BBE4DAF1609CEC"
+			]
+			id: "0492C4710059EFA0"
+			tasks: [{
+				id: "57FCCA89562677EA"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"563E033FEF59E697"
+				"536773B29EBCA31E"
+			]
+			id: "296E12776B602FA3"
+			tasks: [{
+				id: "4B8B45EC5DBDBA7E"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"68D07152018E8A96"
+				"00E34F92DC6CB54E"
+			]
+			id: "4AF76AB80CFB04C8"
+			tasks: [{
+				id: "23018DBC840EC5EE"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A3CD92E42106D86"
+				"086479DE0D831502"
+			]
+			id: "3D86EE238D209111"
+			tasks: [{
+				id: "7DFDA48D16B44CC3"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["350BF00C62BD5228"]
+			id: "29E96B90828D9395"
+			tasks: [{
+				id: "1C1655B2E32205BF"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29E96B90828D9395"
+				"5E35BA6B782078EE"
+			]
+			id: "72D7E7823DEF3420"
+			tasks: [{
+				id: "4E59DA9F18E2C093"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"08F1EE5C9B9AEFFD"
+				"75E559ABBEADDDB1"
+			]
+			id: "48D0C485693A51E7"
+			tasks: [{
+				id: "2795F98BAAD1FDF2"
+				item: "powah:ender_gate_blazing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
 		}
 	]
 	title: "Powah!"

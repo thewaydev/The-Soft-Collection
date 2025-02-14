@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_ultimate_singularity"
+	group: "737D1834EF03B5B3"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "2944946F3004973B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Ultimate Singularity"
+}

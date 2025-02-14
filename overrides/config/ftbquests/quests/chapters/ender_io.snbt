@@ -74,7 +74,109 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "3FFA0C60218D17DB"
+			tasks: [{
+				id: "6F5CEC5572494680"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "516151C06C6EF67C"
+			tasks: [{
+				id: "3459B8861C03A006"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "720E2A64AA2B6C56"
+			tasks: [{
+				id: "6A70DE64F47A0867"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "64A04AFCD2CBC9DC"
+			tasks: [{
+				id: "6E5C73401DFC6816"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "6F4B93DE5891C8EF"
+			tasks: [{
+				id: "7AFA8F057EE5834B"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "253381C839101A9A"
+			tasks: [{
+				id: "057597133C2C92A5"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "157B0DBA7BC7D2D9"
+			tasks: [{
+				id: "3478B6FC5FB35DDE"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A6C91E0E5430BE2"]
+			id: "4BF3047BE62AEF47"
+			tasks: [{
+				id: "006BD818C23A7740"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3FFA0C60218D17DB"
+				"720E2A64AA2B6C56"
+			]
+			id: "6FE63917B89486C7"
+			tasks: [{
+				id: "29D1F9ECAB1D770E"
+				title: "Industrial Foregoing!!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -12.0d
 		}
 	]
 	title: "Ender IO"

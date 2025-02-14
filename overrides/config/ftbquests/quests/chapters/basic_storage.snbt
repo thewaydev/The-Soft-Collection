@@ -3,9 +3,78 @@
 	default_quest_shape: ""
 	filename: "basic_storage"
 	group: "3394A3E3D39C13B9"
+	icon: "functionalstorage:copper_upgrade"
 	id: "35EB0587FE32787D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "77693CF7FC1136E5"
+			tasks: [{
+				id: "7B3C8AE781799C8B"
+				title: "Starting Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77693CF7FC1136E5"]
+			id: "2B600DE7CF75D948"
+			tasks: [{
+				id: "61B7EA783739B4E2"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77693CF7FC1136E5"]
+			icon: "functionalstorage:oak_1"
+			id: "2F2379F5966FE51A"
+			tasks: [{
+				id: "5BC7677B4A65DB7B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				type: "item"
+			}]
+			title: "Functional Storage"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77693CF7FC1136E5"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "530984635AEF31C7"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "0D23CDB0D3841D24"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:all_storage"
+					}
+				}
+				title: "Any Chest"
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: 0.0d
+			y: 10.0d
+		}
+	]
 	title: "Basic Storage"
 }

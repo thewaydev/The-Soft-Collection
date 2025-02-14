@@ -4,7 +4,7 @@
 	filename: "the_stupid_shit"
 	group: "737D1834EF03B5B3"
 	hide_quest_until_deps_complete: true
-	icon: "extendedcrafting:ultimate_singularity"
+	icon: "mysticalagradditions:creative_essence"
 	id: "31020C500A48FA90"
 	order_index: 2
 	quest_links: [ ]

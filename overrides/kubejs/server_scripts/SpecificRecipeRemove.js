@@ -12,6 +12,6 @@ ServerEvents.recipes(FurryModpack => {
     FurryModpack.remove({ output: 'nuclear_bombs:stone_bomb'})
     FurryModpack.remove({ output: 'nuclear_bombs:deepslate_bomb'})
     FurryModpack.remove({ output: 'nuclear_bombs:rainbow_bomb'})
-    FurryModpack.remove({ output: 'powah:energy_cell_basic', input: 'powah:capacitor_basic'})
+    FurryModpack.remove({ input: 'minecraft:iron_ingot', output: 'powah:energy_cell_basic'})
 
 })

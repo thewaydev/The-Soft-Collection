@@ -74,6 +74,39 @@
 			x: 8.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["3987EDC0C4D124FF"]
+			id: "576E43465E88B029"
+			tasks: [{
+				id: "3605C658621B6186"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["576E43465E88B029"]
+			id: "3A2885A5CB27BCA6"
+			tasks: [{
+				id: "7CCCDF5CDD8EAA4A"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A2885A5CB27BCA6"]
+			id: "4AA894E6489A6A09"
+			tasks: [{
+				id: "3D4EAB7165E6F756"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
 	]
 	title: "Ars Nouveau"
 }

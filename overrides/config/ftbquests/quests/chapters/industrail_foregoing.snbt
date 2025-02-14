@@ -7,6 +7,16 @@
 	id: "31BA11686E89F093"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["6FE63917B89486C7"]
+		id: "7A1F4E7C18D5D026"
+		tasks: [{
+			id: "58E5340855F8A6DD"
+			item: "industrialforegoing:machine_frame_pity"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Industrail Foregoing"
 }
