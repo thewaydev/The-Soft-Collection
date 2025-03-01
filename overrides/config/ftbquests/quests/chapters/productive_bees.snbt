@@ -7,6 +7,15 @@
 	id: "08706DAF41B1AFDC"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0DC93A295038A2D3"
+		tasks: [{
+			id: "357A991EC62BA35E"
+			item: "minecraft:honeycomb"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Productive Bees"
 }

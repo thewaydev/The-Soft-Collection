@@ -2317,6 +2317,197 @@
 			}
 		}
 		{ count: 32, item: "enderio:pulsating_alloy_ingot" }
+		{ count: 4, item: "powah:dielectric_casing" }
+		{ count: 16, item: "powah:capacitor_basic" }
+		{ item: "powah:energy_cell_basic" }
+		{ item: "powah:energy_cell_starter" }
+		{ item: "ae2:interface" }
+		{ item: "expatternprovider:ex_interface" }
+		{ count: 4, item: "ae2:import_bus" }
+		{ count: 4, item: "ae2:export_bus" }
+		{ item: "ae2:64k_crafting_storage" }
+		{ count: 4, item: "ae2:4k_crafting_storage" }
+		{ count: 2, item: "ae2:cell_component_16k" }
+		{ count: 32, item: "ae2:blank_pattern" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:darkthread"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{ count: 32, item: "mekanism:ingot_steel" }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:invar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{ count: 8, item: "create_enchantment_industry:hyper_experience_bottle" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:superstitious_hat" }
+		{ count: 16, item: "minecraft:iron_block" }
+		{ count: 16, item: "minecraft:cut_sandstone" }
+		{ count: 2, item: "megacells:mega_crafting_accelerator", weight: 0.5f }
+		{
+			command: "/summon ad_astra:martian_raptor"
+			type: "command"
+		}
+		{ count: 2, item: "thermal:machine_insolator" }
+		{ item: "thermal:machine_insolator" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 3
+					}
+				}
+				id: "immersiveengineering:railgun"
+			}
+		}
+		{ item: "modularrouters:muffler_upgrade" }
+		{ count: 16, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ count: 2, item: "pneumaticcraft:compressed_iron_block" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "thermal:upgrade_augment_2" }
+		{ item: "thermal:upgrade_augment_3", weight: 0.5f }
+		{ item: "thermal:fluid_tank_augment" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_blue_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_blue_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_blue_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_blue_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:prudentium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "magnumtorch:diamond_magnum_torch" }
+		{ item: "magnumtorch:diamond_magnum_torch" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								-696164048
+								-1267317158
+								-1778284888
+								2042821867
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_sword"
+			}
+			weight: 0.2f
+		}
+		{ item: "extendedcrafting:compressor" }
+		{ item: "compressium:iron_2", weight: 0.25f }
 	]
 	title: "GAMBLING"
 }

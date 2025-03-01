@@ -178,6 +178,107 @@
 			x: 1.5d
 			y: -12.0d
 		}
+		{
+			dependencies: ["3FFA0C60218D17DB"]
+			hide_dependency_lines: true
+			id: "1AA1FFB9A36A8A5B"
+			tasks: [{
+				id: "733B8FD1A3148B79"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64A04AFCD2CBC9DC"]
+			hide_dependency_lines: true
+			id: "1C64E189474B44BE"
+			tasks: [{
+				id: "49F98271B18375E3"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C64E189474B44BE"]
+			id: "27E8B75E70274335"
+			tasks: [{
+				id: "072F65BE6FF21CE9"
+				item: "enderio:pressurized_fluid_conduit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27E8B75E70274335"]
+			id: "7556385ADAE4C61C"
+			tasks: [{
+				id: "713231FF161C0A04"
+				item: "enderio:ender_fluid_conduit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["463B9F1EDF5309BB"]
+			id: "680696C6724D6AF3"
+			tasks: [{
+				id: "6EE71F28E217C17D"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C44939147327C74"]
+			id: "1EAF342D25B8297D"
+			tasks: [{
+				id: "18A1CCD7C6283692"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["463B9F1EDF5309BB"]
+			id: "3D39CCB4D223856C"
+			tasks: [{
+				id: "2FFCD9D133522475"
+				item: "enderio:painting_machine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C44939147327C74"]
+			id: "3AD81875792C34C3"
+			tasks: [{
+				id: "22CBDBA1A5754687"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["463B9F1EDF5309BB"]
+			id: "25BFBC93F9B1891E"
+			tasks: [{
+				id: "6424A2F2EB44BDF0"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
 	]
 	title: "Ender IO"
 }

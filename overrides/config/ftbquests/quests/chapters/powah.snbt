@@ -846,6 +846,34 @@
 			x: 10.0d
 			y: 6.0d
 		}
+		{
+			dependencies: [
+				"296E12776B602FA3"
+				"17177D505ACEC48F"
+			]
+			id: "79026EEE87DE0073"
+			tasks: [{
+				id: "10FB868CB0699712"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"79026EEE87DE0073"
+				"79847C2D466DB906"
+			]
+			id: "341DD053869E8B6B"
+			tasks: [{
+				id: "21CD0036206F5D68"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
 	]
 	title: "Powah!"
 }

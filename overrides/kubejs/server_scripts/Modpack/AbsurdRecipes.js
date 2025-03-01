@@ -15,5 +15,21 @@ ServerEvents.recipes(FurryModpack => {
         F: 'ae2:singularity'
     })
 
+    FurryModpack.shaped('kubejs:supreme_stone_block', [
+        'ABC',
+        'DED',
+        'FGH'
+    ],
+    {
+        A: 'compressium:cobblestone_9',
+        B: 'compressium:dirt_9',
+        C: 'compressium:endstone_9',
+        D: 'mekanism:pellet_antimatter',
+        E: 'enderio:reinforced_obsidian_block',
+        F: 'compressium:andesite_9',
+        G: 'compressium:diorite_9',
+        H: 'compressium:granite_9'
+    })
+
 
 })

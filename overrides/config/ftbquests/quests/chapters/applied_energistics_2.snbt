@@ -32,19 +32,31 @@
 		}
 		{
 			dependencies: ["6D366C6004241732"]
+			icon: "ae2:certus_quartz_crystal"
 			id: "55EB79A7614A12EF"
-			tasks: [
-				{
-					id: "4589E0BA721B563D"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
+			tasks: [{
+				icon: "ae2:certus_quartz_crystal"
+				id: "168047BCDD322A26"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:certus_quartz_gem"
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_crystal"
+							}
+						]
+					}
 				}
-				{
-					id: "2D0C216033401F9B"
-					item: "gtceu:certus_quartz_gem"
-					type: "item"
-				}
-			]
+				title: "Certus Quartz"
+				type: "item"
+			}]
+			title: "Certus Quartz"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -460,6 +472,60 @@
 			}]
 			x: -9.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["0AA65F353D05AB02"]
+			id: "471EDD1F7E32C572"
+			tasks: [{
+				id: "3EB60DD2746A5323"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["471EDD1F7E32C572"]
+			id: "4F6FD384EE7F5828"
+			tasks: [{
+				id: "4FA4040D89C30A42"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["55EB79A7614A12EF"]
+			icon: "ae2:certus_quartz_crystal"
+			id: "3B491A126D71FB69"
+			rewards: [{
+				count: 128
+				id: "692E0459C135E50B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "24E3924EB43FA6C8"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			title: "Buy Certus Quartz"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AE0F86AE70CBE8C"]
+			id: "5B4F0CF9571B3516"
+			tasks: [{
+				id: "219502DC06DEC423"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 15.5d
 		}
 	]
 	title: "Applied Energistics 2"

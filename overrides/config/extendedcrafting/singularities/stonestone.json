@@ -1,0 +1,11 @@
+{
+    "name": "StoneStone",
+    "colors": [
+      "363739",
+      "261e24"
+    ],
+    "ingredient": {
+      "item": "kubejs:supreme_stone_block"
+    },
+    "inUltimateSingularity": false
+  }

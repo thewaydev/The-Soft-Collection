@@ -78,6 +78,11 @@
 		{
 			dependencies: ["6DCBC9EF0C63FE13"]
 			id: "27D79A2C9DD4B0CF"
+			rewards: [{
+				id: "22F5D07E5EC05430"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4886E7D3C9CE0475"
 				item: "minecraft:diamond"

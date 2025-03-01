@@ -83,6 +83,26 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["0AE7C7BDBE844DAA"]
+			id: "18BBED28C6D8F993"
+			rewards: [{
+				auto: "disabled"
+				count: 2
+				id: "0C86DBA537596FC8"
+				item: "kubejs:gambling_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1116BADE5D11257F"
+				item: "compressium:cobblestone_5"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
 	]
 	title: "Token Shop"
 }

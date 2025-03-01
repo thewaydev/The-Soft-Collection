@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "02174875258E6E84"
+	id: "1CDB20C7A2EC25CC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Artifacts"
+}

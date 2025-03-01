@@ -3,9 +3,54 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_2"
 	group: "2EBF24E6F5161F3D"
+	icon: "mysticalagriculture:inferium_seeds"
 	id: "61309D7F25018BBB"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "04605A70D2DEEBC8"
+			tasks: [{
+				id: "3A2740D61A935FC8"
+				title: "Best Ways to Farm"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04605A70D2DEEBC8"]
+			id: "7C84D3DCBA84F536"
+			tasks: [{
+				id: "6715FC1DC8EFBB86"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04605A70D2DEEBC8"]
+			id: "44E3E358D4483E3C"
+			tasks: [{
+				id: "27489F7B7DA9CD51"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04605A70D2DEEBC8"]
+			id: "74707D1F98796CA5"
+			tasks: [{
+				id: "444E8CDD7927D24F"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
 	title: "Mystical Agriculture Help"
 }

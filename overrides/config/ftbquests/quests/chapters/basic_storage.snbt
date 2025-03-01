@@ -75,6 +75,50 @@
 			x: 0.0d
 			y: 10.0d
 		}
+		{
+			dependencies: ["2B600DE7CF75D948"]
+			id: "68E7FCFA63351050"
+			tasks: [{
+				id: "34E213C00864BBF4"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68E7FCFA63351050"]
+			id: "0115B0115861D3FE"
+			tasks: [{
+				id: "7F3F2183187FD845"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0115B0115861D3FE"]
+			id: "3F19B5333AF3CABE"
+			tasks: [{
+				id: "7DD342A9215E7292"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F19B5333AF3CABE"]
+			id: "0F810E6899E53ACD"
+			tasks: [{
+				id: "60830FA167C0EE92"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
 	]
 	title: "Basic Storage"
 }

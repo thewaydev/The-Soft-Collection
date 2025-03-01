@@ -10,6 +10,7 @@ ServerEvents.recipes(FurryModpack => {
     FurryModpack.remove({ output: 'powah:ender_gate_basic'})
     FurryModpack.remove({ output: 'powah:ender_gate_hardened'})
     FurryModpack.remove({ output: 'powah:ender_gate_blazing'})
+    FurryModpack.remove({ output: 'powah:energy_cell_basic'})
 
 
     FurryModpack.shapeless(
@@ -138,6 +139,19 @@ ServerEvents.recipes(FurryModpack => {
         B: 'powah:ender_gate_hardened',
         C: 'powah:energy_cable_blazing',
         D: 'powah:ender_core'
+    })
+
+    FurryModpack.shaped('powah:energy_cell_basic', [
+
+        'ACA',
+        'BDB',
+        'ACA'
+    ],
+    {
+        A: 'minecraft:obsidian',
+        B: 'powah:energy_cell_starter',
+        C: 'powah:capacitor_basic',
+        D: 'powah:dielectric_casing'
     })
 
 

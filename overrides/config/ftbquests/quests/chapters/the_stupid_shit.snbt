@@ -36,7 +36,25 @@
 			}]
 			title: "A Stupid Amount of Resources"
 			x: 0.0d
-			y: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["536FE0E33E91E2BD"]
+			id: "2686879F86271CA2"
+			tasks: [{
+				id: "05159483D3E1D128"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:stonestone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Even more resources!"
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["(Blame waydu for this)"]

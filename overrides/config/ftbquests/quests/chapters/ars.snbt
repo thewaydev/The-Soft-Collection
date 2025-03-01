@@ -39,7 +39,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["10CD9D4604984DE1"]
@@ -50,7 +50,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["10CD9D4604984DE1"]
@@ -61,7 +61,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["10CD9D4604984DE1"]
@@ -72,7 +72,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3987EDC0C4D124FF"]
