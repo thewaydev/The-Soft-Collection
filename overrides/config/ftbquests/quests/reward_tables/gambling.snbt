@@ -2508,6 +2508,545 @@
 		}
 		{ item: "extendedcrafting:compressor" }
 		{ item: "compressium:iron_2", weight: 0.25f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/aquatic": 0.13104856f
+							"apotheosis:armor/attribute/blessed": 0.9858943f
+							"apotheosis:armor/attribute/steel_touched": 0.8717562f
+							"apotheosis:armor/mob_effect/nimble": 0.5626739f
+							"apotheosis:durable": 0.11f
+						}
+						name: "{\"color\":\"#5555FF\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/aquatic\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/blessed.suffix\"}]}"
+						rarity: "apotheosis:rare"
+						sockets: 2
+						uuids: [[I;
+							516350456
+							987319295
+							-1776800556
+							-1549902703
+						]]
+					}
+					apoth_rchest: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:war_pick"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:slimewood"
+						"tconstruct:invar"
+						"tconstruct:vine"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:solar_powered"
+						}
+						{
+							level: 1
+							name: "tconstruct:overslime"
+						}
+						{
+							level: 1
+							name: "tconstruct:overgrowth"
+						}
+						{
+							level: 1
+							name: "tconstruct:invariant"
+						}
+					]
+					tic_persistent: {
+						"tconstruct:overslime": 6
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.95f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.85f
+						"tconstruct:durability": 1005.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 4.0f
+						"tconstruct:overslime": 50.0f
+						"tconstruct:velocity": 0.9f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:cherry_log" }
+		{ count: 64, item: "pamhc2foodcore:butteritem" }
+		{ count: 64, item: "pamhc2foodcore:softpretzelitem" }
+		{ count: 64, item: "pamhc2foodcore:cheeseitem" }
+		{ count: 32, item: "pamhc2foodcore:cheeseitem" }
+		{ count: 32, item: "minecraft:mangrove_log" }
+		{ count: 32, item: "pamhc2foodcore:melonmuffinitem" }
+		{ count: 32, item: "pamhc2foodcore:sweetberrymuffinitem" }
+		{ count: 32, item: "pamhc2foodcore:appleyogurtitem" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "enderstorage:ender_pouch" }
+		{ count: 2, item: "enderstorage:ender_chest" }
+		{ count: 2, item: "enderstorage:ender_tank" }
+		{ item: "minecraft:enchanting_table" }
+		{ count: 32, item: "minecraft:obsidian" }
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:refined_obsidian_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "mekanism:ingot_refined_obsidian" }
+		{ item: "thermal:machine_chiller" }
+		{ count: 32, item: "mekanism:dust_refined_obsidian" }
+		{
+			item: {
+				Count: 1
+				id: "advanced_ae:quantum_boots"
+				tag: {
+					Damage: 0
+					internalCurrentPower: 2.0E8d
+				}
+			}
+			weight: 0.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "advanced_ae:quantum_leggings"
+				tag: {
+					Damage: 0
+					internalCurrentPower: 2.5E8d
+				}
+			}
+			weight: 0.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "advanced_ae:quantum_chestplate"
+				tag: {
+					Damage: 0
+					flight_tag: {
+						enabled: 1b
+						filter: [ ]
+						value: 10
+					}
+					internalCurrentPower: 2.9999324E8d
+				}
+			}
+			weight: 0.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "advanced_ae:quantum_helmet"
+				tag: {
+					Damage: 0
+					internalCurrentPower: 2.0E8d
+				}
+			}
+			weight: 0.4f
+		}
+		{ count: 16, item: "minecraft:bricks" }
+		{ count: 64, item: "minecraft:brick" }
+		{ count: 64, item: "minecraft:nether_brick" }
+		{ count: 64, item: "minecraft:clay_ball" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:diamond_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "minecraft:clay" }
+		{ item: "compressium:clay_2", weight: 0.5f }
+		{ count: 32, item: "mekanism:ingot_tin" }
+		{ count: 16, item: "pamhc2foodextended:cookoutmealitem" }
+		{ item: "create:mechanical_pump" }
+		{ count: 2, item: "create:depot" }
+		{ item: "create:mechanical_press" }
+		{ count: 32, item: "mekanism:ingot_bronze" }
+		{ count: 16, item: "mekanism:block_bronze" }
+		{ item: "mekanism:personal_chest" }
+		{ item: "ironfurnaces:gold_furnace" }
+		{ item: "create:basin" }
+		{ count: 16, item: "create:fluid_pipe" }
+		{ item: "mekanism:digital_miner", weight: 0.5f }
+		{ count: 2, item: "create:chute" }
+		{ count: 64, item: "create:shaft" }
+		{
+			item: {
+				Count: 1
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:copper_backtank"
+				tag: {
+					Air: 900
+				}
+			}
+		}
+		{ item: "create:clipboard" }
+		{ item: "create:goggles" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+		}
+		{ count: 32, item: "railcraft:coal_coke" }
+		{ item: "minecolonies:blockhutfarmer" }
+		{ item: "pneumaticcraft:air_compressor" }
+		{ item: "industrialforegoing:sewer" }
+		{ item: "industrialforegoing:plant_sower" }
+		{ item: "industrialforegoing:sewage_composter" }
+		{ item: "industrialforegoing:plant_fertilizer" }
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:copper"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:wood"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:stone"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:bronze"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ count: 8, item: "ae2:cell_component_1k" }
+		{ count: 4, item: "ae2:cell_component_4k" }
+		{ count: 4, item: "ae2:cell_component_16k" }
+		{ count: 2, item: "ae2:cell_component_64k" }
+		{ count: 4, item: "ae2:wireless_booster" }
+		{ count: 2, item: "ae2:wireless_receiver" }
+		{ count: 16, item: "ae2:basic_card" }
+		{ count: 16, item: "ae2:basic_card" }
+		{ count: 8, item: "ae2:advanced_card" }
+		{ count: 8, item: "ae2:item_cell_housing" }
+		{ item: "industrialforegoing:mycelial_furnace" }
+		{ item: "generatorgalore:copper_generator" }
+		{ item: "industrialforegoing:pitiful_generator" }
+		{ item: "ars_nouveau:novice_spell_book" }
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:silver"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:gold"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:electrum"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ count: 2, item: "elevatorid:elevator_white" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:pickaxe_heater" }
+		{
+			item: {
+				Count: 1
+				id: "enderio:staff_of_travelling"
+				tag: {
+					Energy: {
+						EnergyStored: 0
+						MaxEnergyStored: 100000
+						MaxEnergyUse: 100000
+					}
+				}
+			}
+		}
+		{ count: 2, item: "enderio:basic_item_filter" }
+		{ item: "enderio:xp_obelisk" }
+		{ count: 4, item: "solarflux:sp_3" }
+		{ item: "solarflux:sp_5" }
+		{ count: 2, item: "solarflux:sp_4" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:advanced_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 256000L
+								gasName: "mekanism:hydrogen"
+							}
+						}]
+						InfusionTanks: [ ]
+						Items: [ ]
+						PigmentTanks: [ ]
+						SlurryTanks: [ ]
+						componentConfig: {
+							config2: {
+								side0: 4
+								side1: 1
+								side2: 1
+								side3: 1
+								side4: 1
+								side5: 1
+							}
+							config3: {
+								side0: 4
+								side1: 1
+								side2: 1
+								side3: 1
+								side4: 1
+								side5: 1
+							}
+							config4: {
+								side0: 4
+								side1: 1
+								side2: 1
+								side3: 1
+								side4: 1
+								side5: 1
+							}
+							config5: {
+								side0: 4
+								side1: 1
+								side2: 1
+								side3: 1
+								side4: 1
+								side5: 1
+							}
+							config6: {
+								side0: 4
+								side1: 1
+								side2: 1
+								side3: 1
+								side4: 1
+								side5: 1
+							}
+							eject2: 1b
+							eject3: 1b
+							eject4: 1b
+							eject5: 1b
+							eject6: 0b
+						}
+						componentEjector: {
+							color0: -1
+							color1: -1
+							color2: -1
+							color3: -1
+							color4: -1
+							color5: -1
+							strictInput: 0b
+						}
+						controlType: 0
+						dumping: 0
+						owner: [I;
+							-1197301177
+							-1504624296
+							-1641110196
+							1172612729
+						]
+						securityMode: 0
+					}
+				}
+			}
+		}
+		{ item: "bhc:red_heart_canister" }
+		{ item: "bhc:red_heart_canister" }
+		{ item: "bhc:yellow_heart_canister" }
+		{ item: "bhc:green_heart_canister" }
+		{ item: "bhc:blue_heart_canister", weight: 0.5f }
+		{ item: "bhc:soul_heart_canister", weight: 0.25f }
+		{ item: "mekanism:electric_bow" }
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:trans"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:bisexual"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:asexual"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:genderfluid"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:intersex"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:demisexual"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:pansexual"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:lesbian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "estrogen:thigh_highs"
+				tag: {
+					specialStyle: "estrogen:pride"
+				}
+			}
+		}
+		{ count: 8, item: "farmersdelight:shepherds_pie" }
+		{ count: 16, item: "farmersdelight:carrot_crate" }
+		{ count: 16, item: "farmersdelight:tomato_crate" }
+		{ count: 16, item: "farmersdelight:onion_crate" }
+		{ count: 16, item: "farmersdelight:potato_crate" }
+		{ count: 16, item: "farmersdelight:beetroot_crate" }
+		{ count: 16, item: "farmersdelight:cabbage_crate" }
+		{ count: 8, item: "farmersdelight:stuffed_pumpkin" }
+		{ count: 8, item: "farmersdelight:roast_chicken" }
+		{ count: 64, item: "ae2:blank_pattern" }
+		{
+			item: {
+				Count: 1
+				id: "ae2:memory_card"
+				tag: { }
+			}
+		}
+		{ item: "ae2:network_tool" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:pocket_piston" }
+		{ count: 32, item: "pipez:gas_pipe" }
+		{ count: 32, item: "pipez:item_pipe" }
+		{ count: 16, item: "pipez:universal_pipe" }
 	]
 	title: "GAMBLING"
 }
