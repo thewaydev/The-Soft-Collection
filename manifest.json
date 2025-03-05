@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The Soft Collection",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "thethewaydu",
   "files": [
     {
@@ -155,6 +155,11 @@
       "required": true
     },
     {
+      "projectID": 340666,
+      "fileID": 5128632,
+      "required": true
+    },
+    {
       "projectID": 280294,
       "fileID": 4586784,
       "required": true
@@ -237,6 +242,11 @@
     {
       "projectID": 227443,
       "fileID": 5372747,
+      "required": true
+    },
+    {
+      "projectID": 293426,
+      "fileID": 5037781,
       "required": true
     },
     {
@@ -590,6 +600,11 @@
       "required": true
     },
     {
+      "projectID": 350006,
+      "fileID": 5283903,
+      "required": true
+    },
+    {
       "projectID": 284497,
       "fileID": 6033946,
       "required": true
@@ -857,6 +872,11 @@
     {
       "projectID": 1084104,
       "fileID": 6205290,
+      "required": true
+    },
+    {
+      "projectID": 293425,
+      "fileID": 4770614,
       "required": true
     },
     {

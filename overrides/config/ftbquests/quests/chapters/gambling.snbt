@@ -132,6 +132,7 @@
 			}
 			id: "7DB87C3322C3254B"
 			rewards: [{
+				auto: "enabled"
 				count: 25
 				id: "0D0A5E3BAF9BB3DE"
 				item: {

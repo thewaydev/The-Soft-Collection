@@ -527,6 +527,105 @@
 			x: -9.0d
 			y: 15.5d
 		}
+		{
+			dependencies: ["5B4F0CF9571B3516"]
+			id: "191E2B7EB41DB1B7"
+			tasks: [{
+				id: "6111DB3748041C81"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["191E2B7EB41DB1B7"]
+			id: "28FF8706D24CFB22"
+			tasks: [{
+				id: "1EDDFDF9B21E0D7D"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["28FF8706D24CFB22"]
+			id: "5C6ECD2D3C4DCE5F"
+			tasks: [{
+				id: "1621BAC118A0AC69"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3F9077343EB346FE"]
+			id: "58CB72E135656E91"
+			tasks: [{
+				id: "4D5DE51C988A78B6"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3F9077343EB346FE"]
+			id: "544AB858B592EFFD"
+			tasks: [{
+				id: "138A1B8D0C368959"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58CB72E135656E91"]
+			id: "225D78371B8E70FA"
+			tasks: [{
+				id: "6F6A4FC13CD13341"
+				item: "expatternprovider:ex_import_bus_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["544AB858B592EFFD"]
+			id: "77F60BE2E69A9A52"
+			tasks: [{
+				id: "4452AC4BDABE31AF"
+				item: "expatternprovider:ex_export_bus_part"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5C6ECD2D3C4DCE5F"]
+			id: "4DB4B1F980163142"
+			tasks: [{
+				id: "6F4501613AE47BD6"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["4DB4B1F980163142"]
+			id: "1548686869F00B23"
+			tasks: [{
+				id: "1A040324464C49D8"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 23.0d
+		}
 	]
 	title: "Applied Energistics 2"
 }

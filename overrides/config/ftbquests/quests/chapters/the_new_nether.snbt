@@ -91,18 +91,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["42FD11714885F0A1"]
-			icon: "silentgear:crimson_iron_ore"
-			id: "0DD58594941C7328"
-			tasks: [{
-				id: "2864B312FAA275DB"
-				item: "silentgear:raw_crimson_iron"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
 			dependencies: ["0200EB289557ACC7"]
 			id: "08623E8117BD9B8E"
 			tasks: [{

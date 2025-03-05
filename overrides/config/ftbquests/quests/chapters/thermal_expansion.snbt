@@ -173,7 +173,7 @@
 		{
 			dependencies: ["2138EB7DC1A109F2"]
 			description: ["You can also get this from laser fluid drills from Industrial Foregoing!"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			icon: "thermal:crude_oil_bucket"
 			id: "151501C63676AA0C"
 			tasks: [{
@@ -254,6 +254,40 @@
 			}]
 			x: -8.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["514D160D8F2648C2"]
+			hide_dependency_lines: true
+			id: "44259A489A2AD99A"
+			tasks: [{
+				id: "23A9F22EDFBAFD58"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["44259A489A2AD99A"]
+			id: "6CDB633C6522988D"
+			tasks: [{
+				id: "39AD3CE725C858BB"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6CDB633C6522988D"]
+			id: "7903B59AB8C0504E"
+			tasks: [{
+				id: "0A83B3681DCE9E0E"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
 		}
 	]
 	title: "Thermal Expansion"

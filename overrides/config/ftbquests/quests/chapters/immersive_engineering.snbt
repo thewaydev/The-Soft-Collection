@@ -262,6 +262,40 @@
 			x: -2.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["6A7D6ED2995D8B28"]
+			hide_dependency_lines: true
+			id: "4368F6FE04465BB1"
+			tasks: [{
+				id: "56D8CD0294E0D806"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4368F6FE04465BB1"]
+			id: "7DE080EF93EFB6E2"
+			tasks: [{
+				id: "09C502D3152722AF"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7DE080EF93EFB6E2"]
+			id: "63AAA69A50A747D5"
+			tasks: [{
+				id: "715F95E7055D1040"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
 	]
 	title: "Immersive Engineering"
 }

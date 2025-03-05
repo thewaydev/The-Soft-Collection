@@ -37,7 +37,7 @@
 	quantumArmorSwimSpeedBoost = 80
 	#Define the HP increased of the HP Buffer card.
 	#Range: 5 ~ 50
-	quantumArmorHpBuffer = 20
+	quantumArmorHpBuffer = 25
 	#Define the maximum speed boost of the Flight Card.
 	#Range: 1 ~ 15
 	quantumArmorMaxFlightSpeed = 10
