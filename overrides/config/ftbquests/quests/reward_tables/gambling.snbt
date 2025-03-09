@@ -4021,6 +4021,239 @@
 		{ item: "artifacts:rooted_boots" }
 		{ item: "create:speedometer" }
 		{ item: "create:stressometer" }
+		{ count: 32, item: "chemlib:hydrogen" }
+		{ item: "ftbquests:screen_5" }
+		{ item: "ftbquests:screen_3" }
+		{ count: 4, item: "apotheosis:hellshelf" }
+		{ count: 4, item: "apotheosis:echoing_deepshelf" }
+		{ count: 4, item: "apotheosis:seashelf" }
+		{ item: "alchemistry:atomizer" }
+		{ item: "alchemistry:compactor" }
+		{ item: "alchemistry:combiner" }
+		{ count: 64, item: "immersiveengineering:casull" }
+		{ count: 64, item: "immersiveengineering:he" }
+		{ count: 64, item: "immersiveengineering:armor_piercing" }
+		{ count: 64, item: "immersiveengineering:potion" }
+		{ item: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_gold_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_netherite_tier_upgrade", weight: 0.75f }
+		{ item: "christmasmusicdiscs:empty_music_disk" }
+		{ item: "christmasmusicdiscs:carol_of_the_bells" }
+		{ item: "christmasmusicdiscs:feliz_navidad" }
+		{ item: "christmasmusicdiscs:have_yourself_a_merry_christmas" }
+		{ item: "christmasmusicdiscs:oh_come_all_ye_faithful" }
+		{ item: "christmasmusicdiscs:ill_be_home_for_christmas" }
+		{ item: "christmasmusicdiscs:we_wish_you_a_merry_christmas" }
+		{ item: "christmasmusicdiscs:white_christmas" }
+		{ item: "christmasmusicdiscs:have_a_holly_jolly_christmas" }
+		{ count: 32, item: "minecraft:golden_apple" }
+		{ count: 8, item: "minecraft:enchanted_golden_apple", weight: 0.5f }
+		{ count: 32, item: "minecraft:cooked_mutton" }
+		{ count: 32, item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 64, item: "minecraft:gold_ingot" }
+		{ count: 64, item: "minecraft:copper_ingot" }
+		{ count: 64, item: "minecraft:iron_ingot" }
+		{ item: "minecraft:brick" }
+		{ count: 2, item: "minecraft:iron_golem_spawn_egg" }
+		{ count: 2, item: "minecraft:husk_spawn_egg" }
+		{ count: 2, item: "minecraft:horse_spawn_egg" }
+		{ count: 2, item: "minecraft:phantom_spawn_egg" }
+		{ count: 2, item: "minecraft:pig_spawn_egg" }
+		{ count: 2, item: "minecraft:piglin_brute_spawn_egg" }
+		{ count: 2, item: "minecraft:pillager_spawn_egg" }
+		{ item: "minecraft:cod_spawn_egg" }
+		{ count: 2, item: "minecraft:pufferfish_spawn_egg" }
+		{ count: 2, item: "gtceu:lv_electric_pump" }
+		{ count: 2, item: "gtceu:mv_electric_pump" }
+		{ item: "gtceu:hv_electric_pump" }
+		{ count: 2, item: "gtceu:lv_conveyor_module" }
+		{ count: 2, item: "gtceu:mv_conveyor_module" }
+		{ item: "pneumaticcraft:fluid_mixer" }
+		{ item: "pneumaticcraft:flux_compressor" }
+		{ item: "pneumaticcraft:gas_lift" }
+		{ item: "gtceu:hv_conveyor_module" }
+		{
+			item: {
+				Count: 1
+				id: "megacells:item_storage_cell_4m"
+				tag: { }
+			}
+			weight: 0.3f
+		}
+		{
+			item: {
+				Count: 1
+				id: "megacells:item_storage_cell_16m"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{ count: 2, item: "create:mechanical_piston" }
+		{ count: 2, item: "create:sticky_mechanical_piston" }
+		{ item: "create:linear_chassis" }
+		{ item: "create:secondary_linear_chassis" }
+		{ item: "create:windmill_bearing" }
+		{ item: "create:mechanical_bearing" }
+		{ count: 64, item: "mysticalagriculture:steel_essence" }
+		{ count: 64, item: "mysticalagriculture:copper_alloy_essence" }
+		{ count: 64, item: "mysticalagriculture:certus_quartz_essence" }
+		{ count: 64, item: "mysticalagriculture:quartz_enriched_iron_essence" }
+		{ count: 64, item: "mysticalagriculture:gold_essence" }
+		{ count: 64, item: "mysticalagriculture:lapis_lazuli_essence" }
+		{ count: 64, item: "mysticalagriculture:end_essence" }
+		{ count: 64, item: "mysticalagriculture:experience_essence" }
+		{ count: 64, item: "mysticalagriculture:blaze_essence" }
+		{ item: "minecolonies:blockhutarchery" }
+		{ item: "minecolonies:blockhutrabbithutch" }
+		{ item: "minecolonies:blockhutplantation" }
+		{ item: "minecolonies:blockhutfisherman" }
+		{ item: "minecolonies:blockhutblacksmith" }
+		{ item: "minecolonies:blockhutbeekeeper" }
+		{ item: "minecolonies:blockhutsifter" }
+		{ item: "minecolonies:blockhutflorist" }
+		{ item: "minecolonies:blockhutcombatacademy" }
+		{ count: 64, item: "pamhc2foodcore:carrotcakeitem" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:huge_tank"
+				tag: {
+					BlockEntityTag: {
+						SavedTanks: {
+							Tank: {
+								Amount: 512000
+								FluidName: "ad_astra:hydrogen"
+							}
+						}
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "irons_spellbooks:cooldown"
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+			weight: 0.1f
+		}
+		{ count: 64, item: "industrialforegoing:fertilizer" }
+		{ count: 32, item: "minecraft:chorus_fruit" }
+		{ count: 64, item: "minecraft:glow_berries" }
+		{ count: 64, item: "minecraft:sweet_berries" }
+		{ count: 64, item: "industrialforegoing:pink_slime" }
+		{ count: 8, item: "ae2:fluix_pearl" }
+		{ count: 64, item: "ae2:fluix_crystal" }
+		{ count: 64, item: "ae2:fluix_dust" }
+		{ count: 64, item: "ae2:printed_silicon" }
+		{ item: "pamhc2foodextended:energydrinkitem" }
+		{ count: 2, item: "pneumaticcraft:pneumatic_dynamo" }
+		{ count: 16, item: "pneumaticcraft:reinforced_pressure_tube" }
+		{ item: "pneumaticcraft:solar_compressor" }
+		{ item: "pneumaticcraft:thermal_compressor" }
+		{ item: "pneumaticcraft:vortex_tube" }
+		{ count: 32, item: "pamhc2foodextended:supremepizzaitem" }
+		{ count: 32, item: "pamhc2foodextended:spagettiitem" }
+		{ count: 64, item: "pamhc2foodextended:grapefruitsodaitem" }
+		{ item: "mysticalagriculture:amethyst_seeds" }
+		{ item: "mysticalagriculture:apatite_seeds" }
+		{ item: "mysticalagriculture:grains_of_infinity_seeds" }
+		{ item: "mysticalagriculture:mystical_flower_seeds" }
+		{ item: "mysticalagriculture:limestone_seeds" }
+		{ item: "mysticalagriculture:menril_seeds" }
+		{ item: "mysticalagriculture:iron_seeds" }
+		{ item: "mysticalagriculture:copper_seeds" }
+		{ item: "mysticalagriculture:nether_seeds" }
+		{ count: 32, item: "thermal:iron_plate" }
+		{ count: 32, item: "thermal:gold_plate" }
+		{ count: 32, item: "thermal:copper_plate" }
+		{ count: 32, item: "thermal:tin_plate" }
+		{ count: 32, item: "thermal:lead_plate" }
+		{ count: 32, item: "thermal:iron_plate" }
+		{ count: 32, item: "thermal:gold_plate" }
+		{ count: 32, item: "thermal:copper_plate" }
+		{ count: 32, item: "thermal:tin_plate" }
+		{ count: 32, item: "thermal:lead_plate" }
+		{ count: 32, item: "minecraft:redstone_block" }
+		{ count: 16, item: "minecraft:copper_block" }
+		{ count: 64, item: "pamhc2foodcore:carrotbreaditem" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{
+			item: {
+				Count: 1
+				id: "ae2:certus_quartz_cutting_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:axolotl_bucket"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:cooked_rabbit" }
+		{ count: 2, item: "minecraft:polar_bear_spawn_egg" }
+		{ count: 64, item: "biomesoplenty:fir_log" }
+		{ count: 64, item: "biomesoplenty:redwood_log" }
+		{ count: 64, item: "biomesoplenty:redwood_wood" }
+		{ item: "mysticalagriculture:lumium_seeds" }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 0.1f }
+		{ item: "mysticalagriculture:dark_steel_seeds" }
+		{ item: "mysticalagriculture:elementium_seeds" }
+		{ item: "mysticalagriculture:fluorite_seeds" }
+		{ item: "mysticalagriculture:soulium_seeds" }
+		{ count: 64, item: "mysticalagriculture:fluix_essence" }
+		{ count: 64, item: "mysticalagriculture:refined_obsidian_essence" }
+		{ count: 64, item: "mysticalagriculture:refined_glowstone_essence" }
+		{ count: 64, item: "mysticalagriculture:ruby_essence" }
+		{ count: 64, item: "mysticalagriculture:constantan_essence" }
+		{ count: 64, item: "mysticalagriculture:manyullyn_essence" }
+		{ count: 64, item: "mysticalagriculture:netherite_essence" }
+		{ count: 64, item: "mysticalagriculture:niotic_crystal_essence" }
+		{ count: 64, item: "mysticalagriculture:cyanite_essence" }
+		{ count: 8, item: "mekanism:block_refined_glowstone" }
+		{ count: 2, item: "enderstorage:ender_chest" }
+		{ count: 64, item: "minecraft:spruce_wood" }
+		{ count: 64, item: "minecraft:jungle_wood" }
+		{ count: 16, item: "lucky:lucky_block" }
+		{ count: 2, item: "enderstorage:ender_tank" }
+		{ count: 2, item: "mekanism:block_refined_obsidian" }
+		{ count: 2, item: "mekanism:block_steel" }
+		{ count: 32, item: "minecraft:moss_block" }
 	]
 	title: "GAMBLING"
 }

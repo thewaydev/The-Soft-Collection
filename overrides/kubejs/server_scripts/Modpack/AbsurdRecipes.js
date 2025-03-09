@@ -1,5 +1,16 @@
 ServerEvents.recipes(FurryModpack => {
 
+
+    FurryModpack.shapeless(
+        Item.of('ftbquests:lootcrate', '{type:"gambling"}'),
+        [
+            'kubejs:gambling_coin',
+            'kubejs:gambling_coin',
+            'kubejs:gambling_coin'
+        ]
+    )
+
+
     FurryModpack.shaped('kubejs:supreme_iron_block', [
 
         'ABC',
@@ -30,6 +41,18 @@ ServerEvents.recipes(FurryModpack => {
         G: 'compressium:diorite_9',
         H: 'compressium:granite_9'
     })
+
+    FurryModpack.shaped('kubejs:gambling_coin', [
+        'ACA',
+        'CBC',
+        'ACA'
+    ],
+    {
+        A: 'bigreactors:cyanite_ingot',
+        B: 'compressium:iron_3',
+        C: 'mekanism:alloy_atomic'
+    })
+
 
 
 })
