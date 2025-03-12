@@ -7,6 +7,16 @@
 	id: "09E727148FCFF6EC"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["06696FCF1DF04762"]
+		id: "12713C655FDB3D08"
+		tasks: [{
+			id: "53AED4187058F82B"
+			item: "refinedstorage:quartz_enriched_iron"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Refined Storage"
 }

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "exteme_reactors"
 	group: "0B3AB04834C93F0B"
+	icon: "bigreactors:basic_reactorcontroller"
 	id: "7A2511A9AAE1FB58"
 	order_index: 9
 	quest_links: [ ]

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The Soft Collection",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "author": "thethewaydu",
   "files": [
     {
@@ -420,6 +420,11 @@
       "required": true
     },
     {
+      "projectID": 439870,
+      "fileID": 5295511,
+      "required": true
+    },
+    {
       "projectID": 324717,
       "fileID": 6106101,
       "required": true
@@ -432,6 +437,11 @@
     {
       "projectID": 896746,
       "fileID": 6139982,
+      "required": true
+    },
+    {
+      "projectID": 573674,
+      "fileID": 6287356,
       "required": true
     },
     {
@@ -980,13 +990,13 @@
       "required": true
     },
     {
-      "projectID": 491794,
-      "fileID": 4712194,
+      "projectID": 546670,
+      "fileID": 6239038,
       "required": true
     },
     {
-      "projectID": 546670,
-      "fileID": 6239038,
+      "projectID": 491794,
+      "fileID": 4712194,
       "required": true
     },
     {
@@ -1025,13 +1035,13 @@
       "required": true
     },
     {
-      "projectID": 272515,
-      "fileID": 6010300,
+      "projectID": 898746,
+      "fileID": 6039603,
       "required": true
     },
     {
-      "projectID": 898746,
-      "fileID": 6039603,
+      "projectID": 272515,
+      "fileID": 6010300,
       "required": true
     },
     {
@@ -1045,13 +1055,13 @@
       "required": true
     },
     {
-      "projectID": 231382,
-      "fileID": 5422013,
+      "projectID": 714958,
+      "fileID": 6119244,
       "required": true
     },
     {
-      "projectID": 714958,
-      "fileID": 6119244,
+      "projectID": 231382,
+      "fileID": 5422013,
       "required": true
     },
     {
@@ -1130,13 +1140,13 @@
       "required": true
     },
     {
-      "projectID": 419699,
-      "fileID": 5137938,
+      "projectID": 243076,
+      "fileID": 4844585,
       "required": true
     },
     {
-      "projectID": 243076,
-      "fileID": 4844585,
+      "projectID": 419699,
+      "fileID": 5137938,
       "required": true
     },
     {

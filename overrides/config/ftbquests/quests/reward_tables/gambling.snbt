@@ -4254,6 +4254,218 @@
 		{ count: 2, item: "mekanism:block_refined_obsidian" }
 		{ count: 2, item: "mekanism:block_steel" }
 		{ count: 32, item: "minecraft:moss_block" }
+		{ item: "refinedstorage:disk_drive" }
+		{ item: "refinedstorage:grid" }
+		{ count: 64, item: "refinedstorage:cable" }
+		{ item: "refinedstorage:yellow_controller" }
+		{ count: 64, item: "refinedstorage:quartz_enriched_iron" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "refinedstorage:64k_storage_disk"
+				tag: {
+					Id: [I;
+						1848936490
+						-511817071
+						-1385005132
+						2007093913
+					]
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "refinedstorage:1k_storage_disk"
+				tag: {
+					Id: [I;
+						-1405480528
+						1418413252
+						-1394705637
+						-1497498925
+					]
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "refinedstorage:4k_storage_disk"
+				tag: {
+					Id: [I;
+						-1851287458
+						578372853
+						-1147397340
+						-1065669695
+					]
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "refinedstorage:16k_storage_disk"
+				tag: {
+					Id: [I;
+						-1619005493
+						1041581544
+						-2116791219
+						-445548971
+					]
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "refinedstorage:1k_storage_disk"
+				tag: {
+					Id: [I;
+						-1405480528
+						1418413252
+						-1394705637
+						-1497498925
+					]
+				}
+			}
+		}
+		{ item: "iceandfire:weezer_blue_album", weight: 1.0E-4f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{ item: "compressium:sand_4" }
+		{ item: "compressium:gravel_4" }
+		{ item: "christmasmusicdiscs:we_wish_you_a_merry_christmas" }
+		{ item: "christmasmusicdiscs:have_a_holly_jolly_christmas" }
+		{ item: "pneumaticcraft:advanced_air_compressor" }
+		{ count: 32, item: "pneumaticcraft:advanced_pressure_tube" }
+		{ item: "pneumaticcraft:advanced_liquid_compressor" }
+		{ item: "pneumaticcraft:electrostatic_compressor" }
+		{ item: "pneumaticcraft:smart_chest" }
+		{ item: "pneumaticcraft:thermal_compressor" }
+		{ count: 8, item: "pamhc2foodextended:anchovypepperonipizzaitem" }
+		{ count: 8, item: "pamhc2foodextended:bbqchickenpizzaitem" }
+		{ item: "ars_nouveau:glyph_evaporate" }
+		{ item: "ars_nouveau:glyph_craft" }
+		{ item: "ars_nouveau:glyph_amplify" }
+		{ item: "ars_nouveau:glyph_duration_down" }
+		{ item: "ars_nouveau:glyph_extend_time" }
+		{ item: "ars_nouveau:glyph_aoe" }
+		{ item: "gtceu:lp_steam_forge_hammer" }
+		{ item: "gtceu:lp_steam_furnace" }
+		{ item: "gtceu:lp_steam_alloy_smelter" }
+		{ item: "gtceu:lp_steam_rock_crusher" }
+		{ item: "ars_nouveau:music_disc_thistle_the_sound_of_glass" }
+		{ count: 32, item: "biomesoplenty:dead_log" }
+		{ count: 32, item: "biomesoplenty:magic_log" }
+		{ item: "functionalstorage:oak_1" }
+		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_gold_tier_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_jukebox_upgrade" }
+		{ item: "industrialforegoing:fluid_extractor" }
+		{ item: "industrialforegoing:latex_processing_unit" }
+		{ item: "industrialforegoing:dissolution_chamber" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofaconitem" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofabbititem" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofeakitem" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofickenitem" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofishitem" }
+		{ count: 32, item: "pamhc2foodextended:cookedtofuttonitem" }
+		{ count: 2, item: "mekanism:basic_induction_cell" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "ironjetpacks:capacitor"
+				tag: {
+					Id: "ironjetpacks:wood"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "ironjetpacks:capacitor"
+				tag: {
+					Id: "ironjetpacks:copper"
+				}
+			}
+		}
+		{ item: "enderio:vibrant_capacitor_bank" }
+		{ item: "enderio:vibrant_capacitor_bank" }
+		{ item: "enderio:basic_capacitor_bank" }
+		{ item: "enderio:basic_capacitor" }
+		{ item: "enderio:double_layer_capacitor" }
+		{ item: "enderio:octadic_capacitor" }
+		{ item: "gtceu:lv_alloy_smelter" }
+		{ item: "gtceu:lv_arc_furnace" }
+		{ item: "gtceu:lv_bender" }
+		{ item: "gtceu:lv_autoclave" }
+		{ item: "gtceu:hp_steam_solid_boiler" }
+		{ item: "gtceu:hp_steam_extractor" }
+		{ item: "gtceu:lp_steam_extractor" }
+		{ item: "gtceu:lp_steam_macerator" }
+		{ item: "gtceu:hp_steam_macerator" }
+		{ item: "gtceu:lv_macerator" }
+		{ item: "gtceu:lv_gas_collector" }
+		{ item: "gtceu:lv_rock_crusher" }
+		{ item: "gtceu:lv_combustion" }
+		{ item: "gtceu:lv_air_scrubber" }
+		{ item: "gtceu:lv_steam_turbine" }
+		{ item: "gtceu:lv_gas_turbine" }
+		{ item: "gtceu:lv_assembler" }
+		{ item: "ars_elemental:glyph_aquatic_filter" }
 	]
 	title: "GAMBLING"
 }

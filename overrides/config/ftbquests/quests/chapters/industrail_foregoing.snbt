@@ -7,16 +7,62 @@
 	id: "31BA11686E89F093"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["6FE63917B89486C7"]
-		id: "7A1F4E7C18D5D026"
-		tasks: [{
-			id: "58E5340855F8A6DD"
-			item: "industrialforegoing:machine_frame_pity"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["6FE63917B89486C7"]
+			id: "7A1F4E7C18D5D026"
+			tasks: [{
+				id: "58E5340855F8A6DD"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A1F4E7C18D5D026"]
+			id: "6428F211BD4FB909"
+			tasks: [{
+				id: "77692B6109FAEB99"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6428F211BD4FB909"]
+			id: "1FC990A50ACD5BD0"
+			tasks: [{
+				id: "5B176120C360FB67"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC990A50ACD5BD0"]
+			id: "0116A48A46D52159"
+			tasks: [{
+				id: "7E9CFAB2E7F34FFB"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0116A48A46D52159"]
+			id: "084E17BAF38A9F0D"
+			tasks: [{
+				id: "749D753ED3AA385E"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
 	title: "Industrail Foregoing"
 }
